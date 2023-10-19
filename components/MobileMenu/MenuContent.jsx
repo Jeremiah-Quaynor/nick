@@ -7,11 +7,16 @@ const MenuContent = () => (
     <ul>
       <li className="bottom-item">
         <AiOutlineMail className="icon" />
-        info@webmail.com
+        <a
+          href="mailto:
+        info@nickpetroleum.com"
+        >
+          info@nickpetroleum.com
+        </a>
       </li>
       <li className="bottom-item">
         <AiOutlinePhone className="icon" />
-        987-098-098-09
+        <a href="tel:+233 240 000 000">+233 240 000 000</a>
       </li>
     </ul>
     {/* <div className="bottom-btn">

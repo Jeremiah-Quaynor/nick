@@ -18,7 +18,7 @@ function Hero3() {
                   <p style={{ fontSize: "20px", fontWeight: "bolder" }}>
                     Welcome To Nick Petroleum
                   </p>
-                  <h1>Fuel Up your Life</h1>
+                  <h1>Fuel Up Your Life</h1>
                   <p
                     style={{
                       fontSize: "15px",
