@@ -1,5 +1,5 @@
 import React from 'react';
-import bannerBg from '../assets/img/nick_main_two.jpg';
+import bannerBg from '../assets/img/nick_main_two.JPG';
 import Footer1 from '../components/Footer1';
 import Header from '../components/Header';
 import PageBanner from '../components/PageBanner';

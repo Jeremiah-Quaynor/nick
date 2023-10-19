@@ -1,7 +1,7 @@
 import React from "react";
 import img3 from "../../assets/img/nick_main.JPG";
 import img2 from "../../assets/img/nick_main_two.JPG";
-import img1 from "../../assets/img/nick_main_three.jpg";
+import img1 from "../../assets/img/nick_main_three.JPG";
 import Image from "next/image";
 
 function PhotoGrid() {
