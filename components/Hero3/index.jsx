@@ -2,7 +2,7 @@ import React from "react";
 import { BsArrowRight } from "react-icons/bs";
 import heroImg from "../../assets/img/home3/hero-3.jpg";
 import Link from "next/link";
-import NickImage from "../../assets/img/nick_main.JPG";
+import NickImage from "../../assets/img/nick-1.jpeg";
 // import NickVideo from "../../assets/img/Video/Nick.mp4";
 import Image from "next/image";
 

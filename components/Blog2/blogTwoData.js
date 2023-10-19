@@ -1,7 +1,8 @@
 import { v4 as uuidv4 } from 'uuid';
 import thumb1 from '../../assets/img/Ghana_Link.jpg';
 import thumb2 from '../../assets/img/nick_main.JPG';
-import thumb3 from '../../assets/img/nick_main_two.JPG';
+import thumb3 from '../../assets/img/nick-2.jpeg';
+import thumb4 from '../../assets/img/nick-3.jpeg';
 
 const blogTwoData = [
     {
@@ -31,7 +32,7 @@ const blogTwoData = [
     },
     {
         id: uuidv4(),
-        thumbnail: thumb3,
+        thumbnail: thumb4,
         meta: '5th Aug 2022',
         author: 'Richmond Setrana',
         title: '4 Filling Stations In Ghana That Are Fully Owned By Ghanaians',
