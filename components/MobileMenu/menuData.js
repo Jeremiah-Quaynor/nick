@@ -1,74 +1,91 @@
-import React from 'react';
-import { CgChevronDown, CgChevronLeft } from 'react-icons/cg';
+import React from "react";
+import { CgChevronDown, CgChevronLeft } from "react-icons/cg";
 
 const menuData = [
-    {
-        title: 'Home',
-        path: '/',
-        iconClosed: <CgChevronLeft />,
-        iconOpened: <CgChevronDown />,
+  {
+    title: "Home",
+    path: "/",
+    iconClosed: <CgChevronLeft />,
+    iconOpened: <CgChevronDown />,
 
-        // subNav: [
-        //     {
-        //         title: 'Home One',
-        //         path: '/',
-        //     },
-        //     {
-        //         title: 'Home Two',
-        //         path: '/home-2',
-        //     },
+    // subNav: [
+    //     {
+    //         title: 'Home One',
+    //         path: '/',
+    //     },
+    //     {
+    //         title: 'Home Two',
+    //         path: '/home-2',
+    //     },
 
-        //     {
-        //         title: 'Home Three',
-        //         path: '/home-3',
-        //     },
-        // ],
-    },
+    //     {
+    //         title: 'Home Three',
+    //         path: '/home-3',
+    //     },
+    // ],
+  },
 
-    {
-        title: 'About',
-        path: '/about/whoWeAre',
-    },
+  {
+    title: "Our Company",
+    path: "/about/whoWeAre",
 
-    // {
-    //     title: 'Pages',
-    //     path: '/',
+    subNav: [
+      {
+        title: "Our Team",
+        path: "/about/team",
+        cName: "sub-nav",
+      },
+      {
+        title: "Who We Are",
+        path: "/about/whoWeAre",
+        cName: "sub-nav",
+      },
+      {
+        title: "Careers",
+        path: "/about/careers",
+      },
+    ],
+  },
 
-    //     iconClosed: <CgChevronLeft />,
-    //     iconOpened: <CgChevronDown />,
+  // {
+  //     title: 'Pages',
+  //     path: '/',
 
-    //     subNav: [
-    //         {
-    //             title: 'Team',
-    //             path: '/team',
-    //             cName: 'sub-nav',
-    //         },
-    //         {
-    //             title: 'Faq',
-    //             path: '/faq',
-    //             cName: 'sub-nav',
-    //         },
-    //         {
-    //             title: 'Projects',
-    //             path: '/projects',
-    //         },
-    //     ],
-    // },
+  //     iconClosed: <CgChevronLeft />,
+  //     iconOpened: <CgChevronDown />,
 
-    {
-        title: 'Services',
-        path: '/services',
-    },
+  //     subNav: [
+  //         {
+  //             title: 'Team',
+  //             path: '/team',
+  //             cName: 'sub-nav',
+  //         },
+  //         {
+  //             title: 'Faq',
+  //             path: '/faq',
+  //             cName: 'sub-nav',
+  //         },
+  //         {
+  //             title: 'Projects',
+  //             path: '/projects',
+  //         },
+  //     ],
+  // },
 
-    {
-        title: 'News',
-        path: '/news',
-    },
+  {
+    title: "Services",
+    path: "/services",
+  },
 
-    {
-        title: 'Contact',
-        path: '/contact',
-    },
+  {
+    title: "News",
+    path: "/news",
+  },
+
+  {
+    title: "Contact",
+    path: "/contact",
+  },
 ];
 
 export default menuData;
