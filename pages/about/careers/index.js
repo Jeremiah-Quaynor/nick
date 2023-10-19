@@ -30,7 +30,7 @@ export default function Careers() {
             alt="Careers"
             style={{ objectFit: "cover", width: "100%", height: "100%" }}
           />
-          <h1 style={{color: "#ffd700", marginTop: "-35%", textAlign: "center", textShadow: "initial"}}>There are no careers available</h1>
+          <h1 style={{color: "white", marginTop: "-30%", textAlign: "center", textShadow: "initial"}}>There are no careers available</h1>
         </div>
         {/* <Hero3 /> */}
         {/* <TeamMembers/> */}
