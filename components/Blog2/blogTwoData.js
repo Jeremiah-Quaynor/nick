@@ -1,7 +1,7 @@
 import { v4 as uuidv4 } from 'uuid';
 import thumb1 from '../../assets/img/Ghana_Link.jpg';
-import thumb2 from '../../assets/img/nick_main.jpg';
-import thumb3 from '../../assets/img/nick_main_two.jpg';
+import thumb2 from '../../assets/img/nick_main.JPG';
+import thumb3 from '../../assets/img/nick_main_two.JPG';
 
 const blogTwoData = [
     {
