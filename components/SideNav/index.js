@@ -1,17 +1,18 @@
 import React from "react";
+import { AiOutlineClose } from "react-icons/ai";
 import { TbMathGreater } from "react-icons/tb";
 
 function index({ handleShowSideNav }) {
   return (
-    <div className="fixed inset-0 bg-[rgba(0,0,0,0.2)] z-10 overflow-y-auto">
-      <div className="bg-[#e5db00] w-[650px] h-full absolute left-0 animate-in slide-in-from-left-96 px-10 opacity-80 transform-gpu transition-transform duration-500 ease-in-out delay-150">
+    <div className="fixed inset-0 bg-[rgba(0,0,0,0.2)] w-[650px] z-10 overflow-y-auto">
+      <div className="pt-[3%] bg-[#e5db00] w-[650px] h-full absolute left-0 animate-in slide-in-from-left-96 px-10 opacity-80 transform-gpu transition-transform duration-500 ease-in-out delay-150">
         <div
           onClick={handleShowSideNav}
-          className="text-4xl hover:cursor-pointer hover:text-white w-fit h-fit"
+          className="text-3xl text-white hover:cursor-pointer  w-fit h-fit"
         >
-          x
+          <AiOutlineClose className="hover:text-red-600"/>
         </div>
-        <div className="space-y-2">
+        <div className="space-y-4">
           <div className="border-4 border-indigo-600 pb-3 pt-3 text-[#c4161c] font-semibold">
             HOME
           </div>
