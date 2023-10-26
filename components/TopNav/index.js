@@ -7,11 +7,11 @@ import { AiOutlineClose } from "react-icons/ai";
 import { useGlobalContext } from "../../context/globalContext";
 
 function index() {
-  const { showSideNav, setShowSideNav } = useGlobalContext();
+  const { showSideNav, setShowSideNav, handleShowSideNav } = useGlobalContext();
   
-  const handleShowSideNav = () => {
-    setShowSideNav(!showSideNav);
-  };
+  // const handleShowSideNav = () => {
+  //   setShowSideNav(!showSideNav);
+  // };
 
   return (
     <div className="flex justify-between px-20 z-50">
@@ -36,7 +36,9 @@ function index() {
           )}
         </div>
       </div>
-      {showSideNav && <SideNav handleShowSideNav={handleShowSideNav} />}
+      {/* <div> */}
+        {showSideNav && <SideNav handleShowSideNav={handleShowSideNav} />}
+      {/* </div> */}
     </div>
   );
 }

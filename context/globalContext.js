@@ -6,8 +6,12 @@ export const global = createContext({});
 export const GlobalContextProvider = ({ children }) => {
   const [showSideNav, setShowSideNav] = React.useState(false);
 
+  const handleShowSideNav = () => {
+    setShowSideNav(!showSideNav);
+  };
+
   return (
-    <global.Provider value={{ showSideNav, setShowSideNav }}>
+    <global.Provider value={{ showSideNav, setShowSideNav, handleShowSideNav }}>
       {children}
     </global.Provider>
   );

@@ -3,15 +3,19 @@ import { AiOutlineClose } from "react-icons/ai";
 import { BsDashLg } from "react-icons/bs";
 import { TbMathGreater } from "react-icons/tb";
 import { useRouter } from "next/router";
+import { useGlobalContext } from "../../context/globalContext";
 
-function index({ handleShowSideNav }) {
+function index() {
   const router = useRouter();
+  const { showSideNav, setShowSideNav } = useGlobalContext();
+
+  // console.log("Test", showSideNav);
 
   return (
-    <div className="fixed inset-0 bg-[rgba(0,0,0,0.2)] w-[650px] z-10 overflow-y-auto">
-      <div className="pt-[3%] bg-[#e5db00] w-[650px] h-full absolute left-0 animate-in slide-in-from-left-96 px-10 opacity-80 transform-gpu transition-transform duration-500 ease-in-out delay-150 motion-reduce:transition-none">
+    <div className="fixed inset-0 bg-[rgba(0,0,0,0.2)] w-[650px] z-50 left-0 overflow-y-auto">
+      <div className="pt-[3%] bg-[#e5db00] w-[650px] h-full absolute left-0 animate-in z-10 slide-in-from-left-96 px-10 opacity-100 transform-gpu transition-transform duration-500 ease-in-out delay-150 motion-reduce:transition-none">
         <div
-          onClick={handleShowSideNav}
+          onClick={() => setShowSideNav(false)}
           className="text-3xl text-white hover:cursor-pointer w-fit h-fit"
         >
           <AiOutlineClose className="hover:text-red-600" />

@@ -10,7 +10,6 @@ import TopNav from "../components/TopNav"
 import { useGlobalContext } from '../context/globalContext'
 import { useEffect } from 'react'
 
-
 export default function Home() {
 
   const { setShowSideNav } = useGlobalContext();
