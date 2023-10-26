@@ -5,8 +5,15 @@ import PageBanner from "../../../components/PageBanner";
 import bannerBg from "../../../assets/img/careers.jpg";
 import NickImage from "../../../assets/img/nick-3.jpeg";
 import Image from "next/image";
+import { useEffect } from "react";
+import { useGlobalContext } from "../../../context/globalContext";
 
 export default function Careers() {
+  const { setShowSideNav } = useGlobalContext();
+
+  useEffect(() => {
+    setShowSideNav(false)
+  }, [])
   return (
     <div>
       <Head>
