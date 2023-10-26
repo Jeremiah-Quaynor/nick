@@ -14,12 +14,12 @@ function index() {
   };
 
   return (
-    <div className="flex justify-between px-20">
+    <div className="flex justify-between px-20 z-50">
       <div>
         <Image src={Logo} alt="Logo" width={100} height={100} />
       </div>
       <div className="my-auto flex flex-row space-x-2">
-        <div className="border-2 border-indigo-600">Menu</div>
+        <div className="text-[#e8e035] font-semibold">Menu</div>
         <div
           className="my-auto hover:cursor-pointer"
           onClick={handleShowSideNav}
@@ -27,12 +27,12 @@ function index() {
           {showSideNav ? (
             <div
               onClick={handleShowSideNav}
-              className="text-2xl hover:cursor-pointer hover:text-[#c4161c]"
+              className="text-2xl text-[#e8e035] hover:cursor-pointer hover:text-white"
             >
               <AiOutlineClose />
             </div>
           ) : (
-            <FaBars />
+            <FaBars color="#e8e035"/>
           )}
         </div>
       </div>
