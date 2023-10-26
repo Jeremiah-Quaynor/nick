@@ -5,11 +5,8 @@ import { TbMathGreater } from "react-icons/tb";
 import { useRouter } from "next/router";
 import { useGlobalContext } from "../../context/globalContext";
 
-function index({ setShowSideNav }) {
+function index({ showSideNav, setShowSideNav }) {
   const router = useRouter();
-  // const { showSideNav, setShowSideNav } = useGlobalContext();
-
-  // console.log("Test", showSideNav);
 
   return (
     <div className="fixed inset-0 bg-[rgba(0,0,0,0.2)] w-[650px] z-50 left-0 overflow-y-auto">

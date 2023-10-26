@@ -6,9 +6,9 @@ import SideNav from "../../components/SideNav";
 import { AiOutlineClose } from "react-icons/ai";
 import { useGlobalContext } from "../../context/globalContext";
 
-function index({ showSideNav, setShowSideNav}) {
+function index({ showSideNav, setShowSideNav }) {
   // const { showSideNav, setShowSideNav, handleShowSideNav } = useGlobalContext();
-  
+
   // const handleShowSideNav = () => {
   //   setShowSideNav(!showSideNav);
   // };
@@ -22,7 +22,9 @@ function index({ showSideNav, setShowSideNav}) {
         <div className="text-[#e8e035] font-semibold">Menu</div>
         <div
           className="my-auto hover:cursor-pointer"
-          onClick={() => setShowSideNav(!showSideNav)}
+          onClick={() => {
+            setShowSideNav(!showSideNav);
+          }}
         >
           {showSideNav ? (
             <div
@@ -32,12 +34,12 @@ function index({ showSideNav, setShowSideNav}) {
               <AiOutlineClose />
             </div>
           ) : (
-            <FaBars color="#e8e035"/>
+            <FaBars color="#e8e035" />
           )}
         </div>
       </div>
       {/* <div> */}
-        {showSideNav && <SideNav  />}
+      {/* {showSideNav && <SideNav  />} */}
       {/* </div> */}
     </div>
   );

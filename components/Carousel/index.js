@@ -62,7 +62,7 @@ function Carousel({
       )}
 
       <div className="absolute bottom-4 right-0 left-0 z-0">
-        <div className="flex items-center justify-center w-full">
+        <div className="flex items-center justify-center w-full space-x-4">
           {slides.map((_, i) => (
             <div
             key={i}

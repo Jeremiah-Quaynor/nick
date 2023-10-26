@@ -9,10 +9,14 @@ import Blog2 from "../components/Blog2"
 import TopNav from "../components/TopNav"
 import { useGlobalContext } from '../context/globalContext'
 import { useEffect } from 'react'
+import Carousel from '../components/Carousel'
+import Image from 'next/image'
+import home_background from "../assets/img/home_background.jpg";
+
 
 export default function Home() {
 
-  const { setShowSideNav } = useGlobalContext();
+  const { showSideNav, setShowSideNav } = useGlobalContext();
 
   useEffect(() => {
     setShowSideNav(false)
@@ -29,6 +33,15 @@ export default function Home() {
       <main>
       {/* <TopNav /> */}
         {/* <Hero3 /> */}
+        {/* <div className="z-50 opacity-80">
+          <TopNav showSideNav={showSideNav} setShowSideNav={setShowSideNav} />
+        </div> */}
+        <div className="mt-[-10%] z-0">
+          <Image src={home_background} />
+          <div className="mt-[-40%] z-0">
+            <Carousel />
+          </div>
+        </div>
         <Process />
          {/* <div className='container'>
           <Services3 />

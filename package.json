@@ -28,6 +28,7 @@
     "react-scroll-up": "^1.4.0",
     "react-scrollspy": "^3.4.3",
     "react-slick": "^0.29.0",
+    "react-spinners": "^0.13.8",
     "react-tabs": "^6.0.2",
     "react-visibility-sensor": "^5.1.1",
     "resolve": "^1.22.6",

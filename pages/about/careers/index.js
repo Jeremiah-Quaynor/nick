@@ -5,15 +5,17 @@ import PageBanner from "../../../components/PageBanner";
 import bannerBg from "../../../assets/img/careers.jpg";
 import NickImage from "../../../assets/img/nick-3.jpeg";
 import Image from "next/image";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { useGlobalContext } from "../../../context/globalContext";
+import TopNav from "../../../components/TopNav";
 
-export default function Careers({ showSideNav, setShowSideNav}) {
-  // const { setShowSideNav } = useGlobalContext();
+
+export default function Careers({ showSideNav, setShowSideNav }) {
 
   useEffect(() => {
     setShowSideNav(false)
-  }, [])
+  }, []);
+
   return (
     <div>
       <Head>
@@ -26,18 +28,30 @@ export default function Careers({ showSideNav, setShowSideNav}) {
       </Head>
 
       <main>
+      <div className=" mt-[5%]">
+        {}
+        </div>
         <PageBanner
           bannerBg={bannerBg}
           heading="Careers"
           currentPage="Careers"
         />
-        <div style={{width: "100%", height: "800px"}}>
+        <div style={{ width: "100%", height: "800px" }}>
           <Image
             src={NickImage}
             alt="Careers"
             style={{ objectFit: "cover", width: "100%", height: "100%" }}
           />
-          <h1 style={{color: "white", marginTop: "-30%", textAlign: "center", textShadow: "initial"}}>There are no careers available</h1>
+          <h1
+            style={{
+              color: "white",
+              marginTop: "-30%",
+              textAlign: "center",
+              textShadow: "initial",
+            }}
+          >
+            There are no careers available
+          </h1>
         </div>
         {/* <Hero3 /> */}
         {/* <TeamMembers/> */}
