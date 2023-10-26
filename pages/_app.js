@@ -8,7 +8,7 @@ import Footer2 from '../components/Footer2'
 function MyApp({ Component, pageProps }) {
   return (
     <>
-      <Header3 />
+      {/* <Header3 /> */}
       <Component {...pageProps} />
       <Footer2 />
     </>

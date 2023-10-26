@@ -6,6 +6,7 @@ import Services2 from '../components/Services2'
 import Process from '../components/Process'
 import Testimonial from '../components/Testimonial'
 import Blog2 from "../components/Blog2"
+import TopNav from "../components/TopNav"
 
 
 export default function Home() {
@@ -18,7 +19,8 @@ export default function Home() {
       </Head>
 
       <main>
-        <Hero3 />
+      <TopNav />
+        {/* <Hero3 /> */}
         <Process />
          {/* <div className='container'>
           <Services3 />
