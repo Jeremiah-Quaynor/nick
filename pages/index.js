@@ -7,9 +7,18 @@ import Process from '../components/Process'
 import Testimonial from '../components/Testimonial'
 import Blog2 from "../components/Blog2"
 import TopNav from "../components/TopNav"
+import { useGlobalContext } from '../context/globalContext'
+import { useEffect } from 'react'
 
 
 export default function Home() {
+
+  const { setShowSideNav } = useGlobalContext();
+
+  useEffect(() => {
+    setShowSideNav(false)
+  }, [])
+
   return (
     <div >
       <Head>

@@ -12,13 +12,17 @@ function index({ handleShowSideNav }) {
       <div className="pt-[3%] bg-[#e5db00] w-[650px] h-full absolute left-0 animate-in slide-in-from-left-96 px-10 opacity-80 transform-gpu transition-transform duration-500 ease-in-out delay-150 motion-reduce:transition-none">
         <div
           onClick={handleShowSideNav}
-          className="text-3xl text-white hover:cursor-pointer  w-fit h-fit"
+          className="text-3xl text-white hover:cursor-pointer w-fit h-fit"
         >
           <AiOutlineClose className="hover:text-red-600" />
         </div>
-        <div className="space-y-4 h-[59vh] overflow-y-auto">
+        <div className="space-y-4 h-[52vh] overflow-y-auto">
           <div className="border-b-[1.7px] pt-4 border-red-600 text-[#c4161c] font-semibold">
-            HOME
+            <div className="hover:cursor-pointer hover:text-white"
+            onClick={() => router.push("/")}
+            >
+              HOME
+            </div>
             <div className="pt-2">
               <div className="bg-[#c4161c]">
                 <hr />
@@ -106,13 +110,13 @@ function index({ handleShowSideNav }) {
               onClick={() => router.push("/contact")}
             >
               CONTACT US
-            </div>
             <div className="pt-2">
               <div className="pt-2">
                 <div className="bg-[#c4161c]">
                   <hr />
                 </div>
               </div>
+            </div>
             </div>
           </div>
         </div>
