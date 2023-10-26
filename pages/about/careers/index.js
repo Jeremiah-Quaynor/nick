@@ -8,8 +8,8 @@ import Image from "next/image";
 import { useEffect } from "react";
 import { useGlobalContext } from "../../../context/globalContext";
 
-export default function Careers() {
-  const { setShowSideNav } = useGlobalContext();
+export default function Careers({ showSideNav, setShowSideNav}) {
+  // const { setShowSideNav } = useGlobalContext();
 
   useEffect(() => {
     setShowSideNav(false)

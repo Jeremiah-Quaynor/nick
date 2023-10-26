@@ -5,9 +5,9 @@ import { TbMathGreater } from "react-icons/tb";
 import { useRouter } from "next/router";
 import { useGlobalContext } from "../../context/globalContext";
 
-function index() {
+function index({ setShowSideNav }) {
   const router = useRouter();
-  const { showSideNav, setShowSideNav } = useGlobalContext();
+  // const { showSideNav, setShowSideNav } = useGlobalContext();
 
   // console.log("Test", showSideNav);
 
@@ -22,8 +22,12 @@ function index() {
         </div>
         <div className="space-y-4 h-[52vh] overflow-y-auto">
           <div className="border-b-[1.7px] pt-4 border-red-600 text-[#c4161c] font-semibold">
-            <div className="hover:cursor-pointer hover:text-white"
-            onClick={() => router.push("/")}
+            <div
+              className="hover:cursor-pointer hover:text-white"
+              onClick={() => {
+                router.push("/");
+                setShowSideNav(false);
+              }}
             >
               HOME
             </div>
@@ -43,7 +47,10 @@ function index() {
                 <div className="text-sm text-white ">
                   <div
                     className="hover:cursor-pointer hover:text-[#c4161c]"
-                    onClick={() => router.push("/about/team")}
+                    onClick={() => {
+                      router.push("/about/team");
+                      setShowSideNav(false);
+                    }}
                   >
                     Our Team
                   </div>
@@ -56,7 +63,10 @@ function index() {
                 <div className="text-sm text-white hover:cursor-pointer hover:text-red-600">
                   <div
                     className="hover:cursor-pointer hover:text-[#c4161c]"
-                    onClick={() => router.push("/about/whoWeAre")}
+                    onClick={() => {
+                      router.push("/about/whoWeAre");
+                      setShowSideNav(false);
+                    }}
                   >
                     Who We Are
                   </div>
@@ -69,7 +79,10 @@ function index() {
                 <div className="text-sm text-white hover:cursor-pointer hover:text-red-600">
                   <div
                     className="hover:cursor-pointer hover:text-[#c4161c]"
-                    onClick={() => router.push("/about/careers")}
+                    onClick={() => {
+                      router.push("/about/careers");
+                      setShowSideNav(false);
+                    }}
                   >
                     Careers
                   </div>
@@ -114,13 +127,13 @@ function index() {
               onClick={() => router.push("/contact")}
             >
               CONTACT US
-            <div className="pt-2">
               <div className="pt-2">
-                <div className="bg-[#c4161c]">
-                  <hr />
+                <div className="pt-2">
+                  <div className="bg-[#c4161c]">
+                    <hr />
+                  </div>
                 </div>
               </div>
-            </div>
             </div>
           </div>
         </div>

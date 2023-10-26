@@ -10,30 +10,30 @@ import Image from "next/image";
 import home_background from "../assets/img/home_background.jpg";
 import { useGlobalContext } from "../context/globalContext";
 import SideNav from "../components/SideNav";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 function MyApp({ Component, pageProps }) {
-  const { showSideNav, handleShowSideNav } = useGlobalContext();
+  const [showSideNav, setShowSideNav] = useState(false);
 
-  console.log("Test", showSideNav);
+  useEffect(() => {
+    setShowSideNav(false)
+  }, [])
 
   return (
     <>
       {/* <Header3 /> */}
       <GlobalContextProvider>
         <div className="z-50 opacity-80">
-          <TopNav />
+          <TopNav showSideNav={showSideNav} setShowSideNav={setShowSideNav} />
         </div>
-        <div className="">
-          <SideNav />
-        </div>
+        <div className="">{showSideNav && <SideNav setShowSideNav={setShowSideNav} />}</div>
         <div className="mt-[-10%] z-0">
-          <Image src={home_background}/>
+          <Image src={home_background} />
           <div className="mt-[-40%] z-0">
-          <Carousel />
+            <Carousel />
           </div>
         </div>
-        <Component {...pageProps} />
+        <Component {...pageProps} showSideNav={showSideNav} setShowSideNav={setShowSideNav} />
         <Footer2 />
       </GlobalContextProvider>
     </>
