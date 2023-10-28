@@ -3,20 +3,29 @@ import { BiCalendar } from "react-icons/bi";
 import { FaUser } from "react-icons/fa";
 import Link from "next/link";
 import Image from "next/image";
+import { AiOutlineArrowRight } from "react-icons/ai";
 
 function BlogTwoItem({ thumb, author, meta, title, postLink }) {
   return (
-    <div className="single-blog-item">
-      <div className="featured-thumb bg-cover" style={{backgroundColor: "#f6f6f6", paddingInlineBottom: "10%"}}>
+    <div className="single-blog-item border-b-[1.7px] border-blue-600">
+      <div
+        className="featured-thumb bg-cover"
+        style={{ backgroundColor: "#f6f6f6", paddingInlineBottom: "10%" }}
+      >
         <Image
           src={thumb}
           alt="News Image"
-          style={{ objectFit: "cover", width: "100%", height: "100%", marginTop: "-20%" }}
+          style={{
+            objectFit: "cover",
+            width: "100%",
+            height: "100%",
+            marginTop: "-20%",
+          }}
         />
       </div>
       <div className="post-content">
         <div className="post-meta">
-          <div className="post-author">
+          {/* <div className="post-author">
             <FaUser
               style={{
                 marginRight: "5px",
@@ -25,15 +34,15 @@ function BlogTwoItem({ thumb, author, meta, title, postLink }) {
               }}
             />
             <Link href="/">{author}</Link>
-          </div>
+          </div> */}
           <div className="post-date">
-            <BiCalendar
+            {/* <BiCalendar
               style={{
                 marginRight: "5px",
 
                 marginTop: "-2px",
               }}
-            />
+            /> */}
             <span>{meta}</span>
           </div>
         </div>
@@ -42,6 +51,20 @@ function BlogTwoItem({ thumb, author, meta, title, postLink }) {
             {title}
           </a>
         </h3>
+        <Link
+          style={{
+            marginTop: "20px",
+            textAlign: "center",
+            display: "flex",
+            flexDirection: "row",
+          }}
+          href="/news"
+        >
+          <div className="pr-4">Read More</div>
+          <div className="my-auto">
+            <AiOutlineArrowRight />
+          </div>
+        </Link>
       </div>
     </div>
   );

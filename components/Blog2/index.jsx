@@ -12,12 +12,12 @@ import Image from "next/image";
 function Blog2() {
   return (
     <section className="blog-section section-bg section-padding">
-      <div className="container">
+      <div className="container w-[90%]">
         <div className="row align-items-center mb-30">
-          <div className="col-md-7 col-lg-6 col-12">
-            <div className="section-title style-2">
-              <p>Our Insights</p>
-              <h1>Feature Story</h1>
+          <div className="w-[69%]">
+            <div className="section-title style-2 flex justify-between">
+              <p>FEATURE STORY</p>
+              <h1 className="tracking-wider">LATEST COMPANY NEWS</h1>
             </div>
           </div>
           {/* <div className="col-md-5 col-lg-6 mt-4 mt-md-0 text-md-end col-12">
@@ -41,7 +41,7 @@ function Blog2() {
             {/* <h2 style={{marginTop: "-80%", color: "blue", textAlign: "center"}}>Feature News Story</h2> */}
           </div>
           <div className="col-lg-6">
-            <div className="blog-list-view">
+            <div className="blog-list-view ">
               {blogTwoData.map((data) => (
                 <BlogTwoItem
                   key={data.id}
@@ -53,7 +53,7 @@ function Blog2() {
                 />
               ))}
             </div>
-            <Link
+            {/* <Link
               style={{
                 marginTop: "20px",
                 textAlign: "center",
@@ -66,7 +66,7 @@ function Blog2() {
               <div>
                 <AiOutlineArrowRight />
               </div>
-            </Link>
+            </Link> */}
           </div>
         </div>
       </div>

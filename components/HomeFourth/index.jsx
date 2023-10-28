@@ -3,8 +3,10 @@ import Image from "next/image";
 import nick_image_one from "../../assets/img/nick-4.jpeg";
 import nick_image_two from "../../assets/img/nick-5.jpeg";
 import { FiArrowRight } from "react-icons/fi";
+import { useRouter } from "next/router";
 
 function index() {
+    const router = useRouter();
   return (
     <div className="w-[90%] mx-auto p-5">
       <div className="text-[#dc2626] font-bold mb-4">INSIDE NICK PETROLEUM</div>
@@ -47,7 +49,11 @@ function index() {
             Overview of Nick Petroleum{"'"}s comprehensive mining services and
             related investments in mining infrastructure.
           </div>
-          <div className="flex flex-row space-x-1 mt-3 hover:cursor-pointer hover:text-[#dc2626]">
+          <div className="flex flex-row space-x-1 mt-3 hover:cursor-pointer hover:text-[#dc2626]"
+          onClick={() => {
+            router.push("/about/whoWeAre");
+          }}
+          >
             <div>Find Out More</div>
             <div className="my-auto">
               <FiArrowRight color="#dc2626" />

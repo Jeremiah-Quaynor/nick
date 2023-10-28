@@ -13,6 +13,7 @@ import Carousel from '../components/Carousel'
 import Image from 'next/image'
 import home_background from "../assets/img/home_background.jpg";
 import HomeSecond from '../components/HomeSecond'
+import HomeThird from "../components/HomeThird"
 import HomeFourth from '../components/HomeFourth'
 
 
@@ -45,12 +46,13 @@ export default function Home() {
           </div>
         </div>
         <HomeSecond />
+        <HomeThird />
         <HomeFourth />
         {/* <Process /> */}
          {/* <div className='container'>
           <Services3 />
         </div>  */}
-        <Services2 />       
+        {/* <Services2 />        */}
         {/* <Portfolio1 /> */}
         <Blog2 />
         <Testimonial />
