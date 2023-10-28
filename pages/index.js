@@ -12,6 +12,7 @@ import { useEffect } from 'react'
 import Carousel from '../components/Carousel'
 import Image from 'next/image'
 import home_background from "../assets/img/home_background.jpg";
+import HomeSecond from '../components/HomeSecond'
 
 
 export default function Home() {
@@ -42,7 +43,8 @@ export default function Home() {
             <Carousel />
           </div>
         </div>
-        <Process />
+        <HomeSecond />
+        {/* <Process /> */}
          {/* <div className='container'>
           <Services3 />
         </div>  */}
