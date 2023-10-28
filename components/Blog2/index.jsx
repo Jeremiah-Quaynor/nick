@@ -2,7 +2,7 @@ import React from "react";
 import { BiCalendar } from "react-icons/bi";
 import { BsArrowRight } from "react-icons/bs";
 import { FaUser } from "react-icons/fa";
-import cardImg from "../../assets/img/featured_news.jpg";
+import cardImg from "../../assets/img/nick_main_two.jpg";
 import blogTwoData from "./blogTwoData";
 import BlogTwoItem from "./BlogTwoItem";
 import Link from "next/link";
@@ -11,20 +11,15 @@ import Image from "next/image";
 
 function Blog2() {
   return (
-    <section className="blog-section section-bg section-padding">
-      <div className="container w-[90%]">
+    <section className="blog-section section-bg section-padding w-[100vw]">
+      <div className="container">
         <div className="row align-items-center mb-30">
           <div className="w-[69%]">
             <div className="section-title style-2 flex justify-between">
-              <p>FEATURE STORY</p>
+              <p className="my-auto">FEATURE STORY</p>
               <h1 className="tracking-wider">LATEST COMPANY NEWS</h1>
             </div>
           </div>
-          {/* <div className="col-md-5 col-lg-6 mt-4 mt-md-0 text-md-end col-12">
-                        <Link href="/news" className="theme-btn theme-2">
-                            Blog Insights <BsArrowRight style={{ marginLeft: '10px' }} />
-                        </Link>
-                    </div> */}
         </div>
 
         <div className="row">
@@ -38,7 +33,10 @@ function Blog2() {
                 height: "100%",
               }}
             />
-            {/* <h2 style={{marginTop: "-80%", color: "blue", textAlign: "center"}}>Feature News Story</h2> */}
+            <h2 className="text-white text-2xl font-bold shadow-xl pl-8 mt-[-18%]">
+              Stay Focused and Work hard, Chairman Nick Danso Adjei tells the
+              youth, April 30, 2022
+            </h2>
           </div>
           <div className="col-lg-6">
             <div className="blog-list-view ">

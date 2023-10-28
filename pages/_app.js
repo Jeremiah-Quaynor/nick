@@ -10,6 +10,7 @@ import Image from "next/image";
 import { useGlobalContext } from "../context/globalContext";
 import SideNav from "../components/SideNav";
 import { useEffect, useState } from "react";
+import Footer from "../components/Footer";
 
 function MyApp({ Component, pageProps }) {
   const [showSideNav, setShowSideNav] = useState(false);
@@ -32,7 +33,8 @@ function MyApp({ Component, pageProps }) {
           showSideNav={showSideNav}
           setShowSideNav={setShowSideNav}
         />
-        <Footer2 />
+        {/* <Footer2 /> */}
+        <Footer />
       </GlobalContextProvider>
     </>
   );
