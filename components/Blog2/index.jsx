@@ -24,7 +24,7 @@ function Blog2() {
 
         <div className="row">
           <div className="col-lg-6 pr-3 pl-3 pr-lg-5">
-            <Image
+            <img
               src={cardImg}
               alt="News Feature Image"
               style={{

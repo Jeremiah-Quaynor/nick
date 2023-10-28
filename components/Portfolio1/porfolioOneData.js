@@ -1,6 +1,6 @@
 import { v4 as uuidv4 } from "uuid";
-import Img1 from "../../assets/img/nick_main_three.JPG";
-import Img2 from "../../assets/img/nick_main_two.JPG";
+import Img1 from "../../assets/img/nick_main_three.jpg";
+import Img2 from "../../assets/img/nick_main_two.jpg";
 
 const portfolioOneData = [
   {
