@@ -46,8 +46,18 @@ function index() {
           </div>
           <div className="w-[50%]">
             <div className="flex flex-row space-x-5">
-              <div className="text-[#f7eb09]">HOME</div>
-              <div className="text-[#f7eb09]">SERVICES</div>
+              <div
+                className="text-[#f7eb09] hover:cursor-pointer hover:text-white"
+                onClick={() => router.push("/")}
+              >
+                HOME
+              </div>
+              <div
+                className="text-[#f7eb09] hover:cursor-pointer hover:text-white"
+                onClick={() => router.push("/services")}
+              >
+                SERVICES
+              </div>
               <div className="flex flex-col space-y-4">
                 <div className="text-[#f7eb09]">ABOUT US</div>
                 <div className="space-y-2 text-white ">
@@ -71,8 +81,18 @@ function index() {
                   </div>
                 </div>
               </div>
-              <div className="text-[#f7eb09]">COMPANY NEWS</div>
-              <div className="text-[#f7eb09]">CONTACT US</div>
+              <div
+                className="text-[#f7eb09] hover:cursor-pointer hover:text-white"
+                onClick={() => router.push("/news")}
+              >
+                COMPANY NEWS
+              </div>
+              <div
+                className="text-[#f7eb09] hover:cursor-pointer hover:text-white"
+                onClick={() => router.push("/contact")}
+              >
+                CONTACT US
+              </div>
             </div>
           </div>
         </div>
