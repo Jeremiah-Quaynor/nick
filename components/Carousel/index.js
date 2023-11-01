@@ -34,7 +34,7 @@ function Carousel({
 
   return (
       <div
-        className="overflow-hidden relative z-0 w-[100vw]"
+        className="overflow-hidden relative z-0 w-[100vw] h-[60vh]"
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
       >
