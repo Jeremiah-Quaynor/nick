@@ -1,6 +1,6 @@
 import { v4 as uuidv4 } from 'uuid';
 import thumb1 from '../../assets/img/Ghana_Link.jpg';
-import thumb2 from '../../assets/img/nick_main.jpg';
+import thumb2 from '../../assets/img/nickMain.jpg';
 import thumb3 from '../../assets/img/nick-2.jpeg';
 import thumb4 from '../../assets/img/nick-3.jpeg';
 

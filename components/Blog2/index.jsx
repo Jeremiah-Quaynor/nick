@@ -2,7 +2,7 @@ import React from "react";
 import { BiCalendar } from "react-icons/bi";
 import { BsArrowRight } from "react-icons/bs";
 import { FaUser } from "react-icons/fa";
-import cardImg from "../../assets/img/nick_main_two.jpg";
+import cardImg from "../../assets/img/nickTwo.jpg";
 import blogTwoData from "./blogTwoData";
 import BlogTwoItem from "./BlogTwoItem";
 import Link from "next/link";
