@@ -39,9 +39,11 @@ export default function Home() {
         {/* <div className="z-50 opacity-80">
           <TopNav showSideNav={showSideNav} setShowSideNav={setShowSideNav} />
         </div> */}
-        <div className="mt-[-10%] z-0">
-          <Image src={home_background} />
-          <div className="mt-[-40%] z-0">
+        <div className="mt-[-10%] z-0 w-screen w-full">
+          <div className='w-screen'>
+            <Image src={home_background} className='w-full h-full object-cover'/>
+          </div>
+          <div className="mt-[-40%] z-0 w-screen w-full">
             <Carousel />
           </div>
         </div>

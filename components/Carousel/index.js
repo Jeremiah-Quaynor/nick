@@ -33,48 +33,48 @@ function Carousel({
   }, [autoSlide, autoSlideInterval, isHovered]);
 
   return (
-    <div
-      className="overflow-hidden relative ml-[4%] z-0"
-      onMouseEnter={() => setIsHovered(true)}
-      onMouseLeave={() => setIsHovered(false)}
-    >
       <div
-        className="flex transition-transform ease-out duration-500 w-screen"
-        style={{ transform: `translateX(-${curr * 100}%)` }}
+        className="overflow-hidden relative z-0 w-[100vw]"
+        onMouseEnter={() => setIsHovered(true)}
+        onMouseLeave={() => setIsHovered(false)}
       >
-        {[...slides.map((s, i) => <Image src={s} key={i} alt="Carousel Image" width={"100%"} height={"100%"} className="z-0"/>)]}
-      </div>
-      {isHovered && (
-        <div className="absolute inset-0 flex items-center justify-between p-4">
-          <button
-            onClick={prev}
-            className="p-1 rounded-full shadow bg-white/80 text-gray-800 hover:bg-white"
-          >
-            <ChevronLeft size={40} />
-          </button>
-          <button
-            onClick={next}
-            className="p-1 rounded-full shadow bg-white/80 text-gray-800 hover:bg-white"
-          >
-            <ChevronRight size={40} />
-          </button>
+        <div
+          className="flex transition-transform ease-out duration-500"
+          style={{ transform: `translateX(-${curr * 100}%)` }}
+        >
+          {[...slides.map((s, i) => <Image src={s} key={i} alt="Carousel Image" width={""} height={""} className=" w-screen h-screen object-cover"/>)]}
         </div>
-      )}
+        {isHovered && (
+          <div className="absolute inset-0 flex items-center justify-between p-4">
+            <button
+              onClick={prev}
+              className="p-1 rounded-full shadow bg-white/80 text-gray-800 hover:bg-white"
+            >
+              <ChevronLeft size={40} />
+            </button>
+            <button
+              onClick={next}
+              className="p-1 rounded-full shadow bg-white/80 text-gray-800 hover:bg-white"
+            >
+              <ChevronRight size={40} />
+            </button>
+          </div>
+        )}
 
-      <div className="absolute bottom-4 right-0 left-0 z-0">
-        <div className="flex items-center justify-center w-full space-x-4">
-          {slides.map((_, i) => (
-            <div
-            key={i}
-              className={`
-              transition-all w-3 h-3 bg-white rounded-full
-              ${curr === i ? "p-2" : "bg-opacity-50"}
-            `}
-            />
-          ))}
+        <div className="absolute bottom-4 right-0 left-0 z-0">
+          <div className="flex items-center justify-center w-full space-x-4">
+            {slides.map((_, i) => (
+              <div
+              key={i}
+                className={`
+                transition-all w-3 h-3 bg-white rounded-full
+                ${curr === i ? "p-2" : "bg-opacity-50"}
+              `}
+              />
+            ))}
+          </div>
         </div>
       </div>
-    </div>
   );
 }
 
