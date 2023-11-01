@@ -11,7 +11,7 @@ import { useGlobalContext } from '../context/globalContext'
 import { useEffect } from 'react'
 import Carousel from '../components/Carousel'
 import Image from 'next/image'
-import home_background from "../assets/img/home_background.jpg";
+import home_background from "../assets/img/home_background.png";
 import HomeSecond from '../components/HomeSecond'
 import HomeThird from "../components/HomeThird"
 import HomeFourth from '../components/HomeFourth'
