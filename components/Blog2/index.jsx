@@ -11,8 +11,8 @@ import Image from "next/image";
 
 function Blog2() {
   return (
-    <section className="blog-section section-bg section-padding w-[100vw]">
-      <div className="container">
+    <section className="blog-section section-bg section-padding w-screen 2xl:text-3xl">
+      <div className="w-[90%] mx-auto">
         <div className="row align-items-center mb-30">
           <div className="w-[69%]">
             <div className="section-title style-2 flex justify-between">
@@ -33,7 +33,7 @@ function Blog2() {
                 height: "100%",
               }}
             />
-            <h2 className="text-white text-2xl font-bold shadow-xl pl-8 mt-[-18%]">
+            <h2 className="text-white text-2xl font-bold shadow-xl pl-8 mt-[-18%] 2xl:mt-[-5%]">
               Stay Focused and Work hard, Chairman Nick Danso Adjei tells the
               youth, April 30, 2022
             </h2>

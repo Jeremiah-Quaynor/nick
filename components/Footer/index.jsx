@@ -8,10 +8,10 @@ function index() {
   const router = useRouter();
   return (
     <div>
-      <div className="bg-[#0a113b] w-screen">
+      <div className="bg-[#0a113b] w-screen 2xl:text-2xl">
         <div className="flex justify-between w-[80%] mx-auto p-10">
           <div className="space-y-4 w-[30%]">
-            <div className="mt-[-10%]">
+            <div className="mt-[-10%] 2xl:mt-[-5%]">
               <Image src={Logo} alt="Logo" width={100} height={100} />
             </div>
             <div className="space-y-2">
@@ -98,7 +98,7 @@ function index() {
         </div>
       </div>
       <div className="w-screen bg-[#292f54]">
-        <div className="w-[80%] mx-auto text-sm text-white text-left p-10">
+        <div className="w-[80%] mx-auto text-sm 2xl:text-lg text-white text-left p-10">
           © Copyright 2023 Nick Petrolem. All Rights Reserved.
         </div>
       </div>
