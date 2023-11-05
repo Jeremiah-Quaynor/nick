@@ -9,8 +9,8 @@ function index({ showSideNav, setShowSideNav }) {
   const router = useRouter();
 
   return (
-    <div className="fixed inset-0 bg-[rgba(0,0,0,0.2)] w-[650px] z-50 left-0 overflow-y-auto 2xl:text-3xl">
-      <div className="pt-[3%] bg-[#0a113b] w-[650px] h-full absolute left-0 animate-in z-10 slide-in-from-left-96 px-10 opacity-100 transform-gpu transition-transform duration-500 ease-in-out delay-150 motion-reduce:transition-none">
+    <div className="fixed inset-0 bg-[rgba(246,246,246,0.2)] w-[650px] z-50 left-0 overflow-y-auto 2xl:text-3xl">
+      <div className="pt-[3%] bg-[#0a113b] w-[650px] h-full animate-in slide-in-from-left-72 duration-700 z-10 px-10">
         <div
           onClick={() => setShowSideNav(false)}
           className="text-3xl text-white hover:cursor-pointer w-fit h-fit"
