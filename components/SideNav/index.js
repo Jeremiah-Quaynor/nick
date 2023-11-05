@@ -9,7 +9,7 @@ function index({ showSideNav, setShowSideNav }) {
   const router = useRouter();
 
   return (
-    <div className="fixed inset-0 bg-[rgba(0,0,0,0.2)] w-[650px] z-50 left-0 overflow-y-auto">
+    <div className="fixed inset-0 bg-[rgba(0,0,0,0.2)] w-[650px] z-50 left-0 overflow-y-auto 2xl:text-3xl">
       <div className="pt-[3%] bg-[#0a113b] w-[650px] h-full absolute left-0 animate-in z-10 slide-in-from-left-96 px-10 opacity-100 transform-gpu transition-transform duration-500 ease-in-out delay-150 motion-reduce:transition-none">
         <div
           onClick={() => setShowSideNav(false)}
@@ -41,7 +41,7 @@ function index({ showSideNav, setShowSideNav }) {
                 <div className="my-auto">
                   <TbMathGreater color="#c4161c" size={10} />
                 </div>
-                <div className="text-sm text-white ">
+                <div className="text-sm 2xl:text-lg text-white ">
                   <div
                     className="hover:cursor-pointer hover:text-[#c4161c]"
                     onClick={() => {
@@ -57,7 +57,7 @@ function index({ showSideNav, setShowSideNav }) {
                 <div className="my-auto">
                   <TbMathGreater color="#c4161c" size={10} />
                 </div>
-                <div className="text-sm text-white hover:cursor-pointer hover:text-red-600">
+                <div className="text-sm 2xl:text-lg text-white hover:cursor-pointer hover:text-red-600">
                   <div
                     className="hover:cursor-pointer hover:text-[#c4161c]"
                     onClick={() => {
@@ -73,7 +73,7 @@ function index({ showSideNav, setShowSideNav }) {
                 <div className="my-auto">
                   <TbMathGreater color="#c4161c" size={10} />
                 </div>
-                <div className="text-sm text-white hover:cursor-pointer hover:text-red-600">
+                <div className="text-sm 2xl:text-lg text-white hover:cursor-pointer hover:text-red-600">
                   <div
                     className="hover:cursor-pointer hover:text-[#c4161c]"
                     onClick={() => {
