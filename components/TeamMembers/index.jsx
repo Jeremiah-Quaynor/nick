@@ -4,17 +4,14 @@ import TeamItem from "./TeamItem";
 
 function TeamMembers() {
   return (
-    <section className="team-section section-padding">
+    <section className="">
       <h1
-        className="text-center mt-20"
-        style={{
-          color: "#001659",
-        }}
+        className="text-center text-2xl font-bold tracking-normal text-[#f4e733] bg-black/50 py-10 bg-gradient-to-r from-[#0a113b] to-[#d7454d]"
       >
-        Our Team
+        OUR TEAM
       </h1>
-      <div className="container">
-        <div className="row mtm-30">
+      <div className="m-10 p-10 mx-auto">
+        <div className="row ">
           {teamData.map((data) => (
             <TeamItem
               key={data.id}
