@@ -21,7 +21,7 @@ function PageBanner({ bannerBg, currentPage, heading }) {
               <nav className="">
                 <ol className="breadcrumb">
                   <li className="breadcrumb-item">
-                    <a href="index.html" className="2xl:text-3xl">Home</a>
+                    <a href="/" className="2xl:text-3xl">Home</a>
                   </li>
                   <li
                     className="breadcrumb-item active 2xl:text-3xl my-auto"
