@@ -28,24 +28,24 @@ function index() {
       </div>
       <div className="flex flex-row space-x-8 ">
         <div className="w-[70vw]">
-          <div className="font-bold text-[#dc2626] text-xl mt-4">
+          <div className="font-bold text-[#dc2626] text-xl mt-4 2xl:text-3xl">
             OUR SERVICES
           </div>
-          <div className="mt-2">
+          <div className="mt-2 2xl:text-3xl">
             Nick Petroleum has a growing retail network of fuel service
             stations, where safety and customer service are at the forefront of
             the design.
           </div>
           <div className="flex flex-row space-x-1 mt-3 hover:cursor-pointer hover:text-[#dc2626]">
-            <div>Find Out More</div>
+            <div className="2xl:text-xl">Find Out More</div>
             <div className="my-auto">
               <FiArrowRight color="#dc2626" />
             </div>
           </div>
         </div>
         <div className="w-[70vw]">
-          <div className="font-bold text-[#dc2626] text-xl mt-4">OUR STORY</div>
-          <div className="mt-2">
+          <div className="font-bold text-[#dc2626] text-xl mt-4 2xl:text-3xl">OUR STORY</div>
+          <div className="mt-2 2xl:text-3xl">
             Overview of Nick Petroleum{"'"}s comprehensive mining services and
             related investments in mining infrastructure.
           </div>
@@ -54,7 +54,7 @@ function index() {
             router.push("/about/whoWeAre");
           }}
           >
-            <div>Find Out More</div>
+            <div className="2xl:text-xl">Find Out More</div>
             <div className="my-auto">
               <FiArrowRight color="#dc2626" />
             </div>
