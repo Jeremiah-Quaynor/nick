@@ -6,7 +6,7 @@ function TeamMembers() {
   return (
     <section className="">
       <h1
-        className="text-center text-2xl font-bold tracking-normal text-[#f4e733] bg-black/50 py-10 bg-gradient-to-r from-[#0a113b] to-[#d7454d]"
+        className="text-center text-2xl 2xl:text-4xl font-bold tracking-normal text-[#f4e733] bg-black/50 py-10 bg-gradient-to-r from-[#0a113b] to-[#d7454d]"
       >
         OUR TEAM
       </h1>

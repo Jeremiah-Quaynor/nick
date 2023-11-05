@@ -5,16 +5,16 @@ import { AiOutlineCheckCircle } from "react-icons/ai";
 
 function Approch() {
   return (
-    <section className="our-approch-wrapper section-padding section-bg">
-      <div className="container">
-        <div className="row mb-30">
+    <section className="our-approch-wrapper section-bg 2xl:text-3xl 2xl:leading-10">
+      <div className="w-[80%] mx-auto p-10">
+        <div className="row">
           <div className="col-12 col-lg-12">
             <div className="section-title text-center">
               <span>Story</span>
-              <h1>Who We Are</h1>
+              <h1 className="tracking-normal 2xl:text-3xl">Who We Are</h1>
               <p>
                 Nick Petroleum Ghana Limited is a private limited liability
-                company incorporated under the company’s code and authorized to
+                company incorporated under the company{"’"}s code and authorized to
                 trade in petroleum products. Nick Petroleum was incorporated in
                 2015, however, trading commenced in 2016 to supply petroleum
                 products to our retail outlets. Nick Petroleum Ghana Limited has

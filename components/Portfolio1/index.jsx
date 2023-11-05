@@ -10,8 +10,8 @@ SwiperCore.use([Navigation]);
 
 function Porfolio1() {
   return (
-    <section className="portfolio-section section-padding pt-0">
-      <div className="container">
+    <section className="portfolio-section section-padding pt-0 2xl:text-3xl 2xl:leading-10">
+      <div className="w-[80%] mx-auto p-10">
         <div className="project-wrapper">
           <Swiper navigation className="portfolio-carousel-active owl-carousel">
             {portfolioOneData.map((data) => (
@@ -27,54 +27,105 @@ function Porfolio1() {
                       <p>{data.desc}</p>
                       <>
                         {data.heading === "Retail Distribution Network" && (
-                          <ul className="mt-5">
-                            <li>
-                              <BsCircleFill className="mr-10" color="#001659" />
-                              Dansoman Wesley Grammar Junction Service Station
+                          <ul className="mt-5 space-y-2">
+                            <li className="flex flex-row space-x-4">
+                              <div className="my-auto">
+                                <BsCircleFill className="" color="#001659" />
+                              </div>
+                              <div>
+                                Dansoman Wesley Grammar Junction Service Station
+                              </div>
                             </li>
-                            <li>
-                              <BsCircleFill className="mr-10" color="#001659" />
-                              Tema Community 18 Service Station
+                            <li className="flex flex-row space-x-4">
+                              <div className="my-auto">
+                                <BsCircleFill className="" color="#001659" />
+                              </div>
+                              <div>Tema Community 18 Service Station</div>
                             </li>
-                            <li>
-                              <BsCircleFill className="mr-10" color="#001659" />
-                              Spintex Road Service Station
+                            <li className="flex flex-row space-x-4">
+                              <div className="my-auto">
+                                <BsCircleFill className="" color="#001659" />
+                              </div>
+                              <div>Spintex Road Service Station</div>
                             </li>
-                            <li>
-                              <BsCircleFill className="mr-10" color="#001659" />
-                              Odorkor Service Station
+                            <li className="flex flex-row space-x-4">
+                              <div className="my-auto">
+                                <BsCircleFill className="" color="#001659" />
+                              </div>
+                              <div>Odorkor Service Station</div>
                             </li>
-                            <li>
-                              <BsCircleFill className="mr-10" color="#001659" />
-                              Kotobabi Filling Station
+                            <li className="flex flex-row space-x-4">
+                              <div className="my-auto">
+                                <BsCircleFill className="" color="#001659" />
+                              </div>
+                              <div>Kotobabi Filling Station</div>
                             </li>
-                            <li>
-                              <BsCircleFill className="mr-10" color="#001659" />
-                              Manhyia Service Station
+                            <li className="flex flex-row space-x-4">
+                              <div className="my-auto">
+                                <BsCircleFill className="" color="#001659" />
+                              </div>
+                              <div>Manhyia Service Station</div>
                             </li>
-                            <li>
-                              <BsCircleFill className="mr-10" color="#001659" />
-                              Kwadaso Service Station
+                            <li className="flex flex-row space-x-4">
+                              <div className="my-auto">
+                                <BsCircleFill className="" color="#001659" />
+                              </div>
+                              <div>Kwadaso Service Station</div>
                             </li>
-                            <li>
-                              <BsCircleFill className="mr-10" color="#001659" />
-                              Suame Service Station
+                            <li className="flex flex-row space-x-4">
+                              <div className="my-auto">
+                                <BsCircleFill className="" color="#001659" />
+                              </div>
+                              <div>Suame Service Station</div>
                             </li>
                           </ul>
                         )}
                         {data.heading === "Existing Bulk Customers" && (
-                          <ul className="mt-5">
-                            <li>
-                            <BsCircleFill className="mr-10" color="#001659" />Tobinco Pharmaceuticals Company Limited (Kotobabi)
+                          <ul className="mt-5 space-y-4">
+                            <li className="flex flex-row space-x-4">
+                              <div className="my-auto">
+                                <BsCircleFill className="" color="#001659" />
+                              </div>
+                              <div>
+                                Tobinco Pharmaceuticals Company Limited
+                                (Kotobabi)
+                              </div>
                             </li>
-                            <li><BsCircleFill className="mr-10" color="#001659" />Royal Systems Company Limited (Dansoman),</li>
-                            <li><BsCircleFill className="mr-10" color="#001659" />DBS Ghana Limited (Spintex)</li>
-                            <li>
-                            <BsCircleFill className="mr-10" color="#001659" />Nick TC Scan (Tema habour) and Nick TC scan
-                              (Kotoka International Airport)
+                            <li className="flex flex-row space-x-4">
+                              <div className="my-auto">
+                                <BsCircleFill className="" color="#001659" />
+                              </div>
+                              <div>
+                                Royal Systems Company Limited (Dansoman),
+                              </div>
                             </li>
-                            <li><BsCircleFill className="mr-10" color="#001659" />Deng Company Limited (Alajo)</li>
-                            <li><BsCircleFill className="mr-10" color="#001659" />Unipass Ghana Limited (East Legon)</li>
+                            <li className="flex flex-row space-x-4">
+                              <div className="my-auto">
+                                <BsCircleFill className="" color="#001659" />
+                              </div>
+                              <div>DBS Ghana Limited (Spintex)</div>
+                            </li>
+                            <li className="flex flex-row space-x-4">
+                              <div className="my-auto">
+                                <BsCircleFill className="" color="#001659" />
+                              </div>
+                              <div>
+                                Nick TC Scan (Tema habour) and Nick TC scan
+                                (Kotoka International Airport)
+                              </div>
+                            </li>
+                            <li className="flex flex-row space-x-4">
+                              <div className="my-auto">
+                                <BsCircleFill className="" color="#001659" />
+                              </div>
+                              <div>Deng Company Limited (Alajo)</div>
+                            </li>
+                            <li className="flex flex-row space-x-4">
+                              <div className="my-auto">
+                                <BsCircleFill className="" color="#001659" />
+                              </div>
+                              <div>Unipass Ghana Limited (East Legon)</div>
+                            </li>
                           </ul>
                         )}
                       </>
