@@ -18,12 +18,15 @@ function SevicesTwoCard({ thumbnail, icon, heading, text }) {
           <div className="case-cat">
             <Link href="/services">{icon}</Link>
           </div>
-          <h3>
+          <h1 className="tracking-normal ">
             <Link href="/services">{heading}</Link>
-          </h3>
+          </h1>
           <p>{text}</p>
-          <Link href="/services" className="read-btn">
-            Read More <BsArrowRight />
+          <Link href="/services" className="text-sm 2xl:text-lg mt-[3%] hover:text-red-600 flex flex-row space-x-2">
+            <div>Read More</div>
+            <div className="my-auto">
+              <BsArrowRight />
+            </div>
           </Link>
         </div>
       </div>
