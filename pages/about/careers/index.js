@@ -9,11 +9,9 @@ import { useEffect, useState } from "react";
 import { useGlobalContext } from "../../../context/globalContext";
 import TopNav from "../../../components/TopNav";
 
-
 export default function Careers({ showSideNav, setShowSideNav }) {
-
   useEffect(() => {
-    setShowSideNav(false)
+    setShowSideNav(false);
   }, []);
 
   return (
@@ -28,9 +26,7 @@ export default function Careers({ showSideNav, setShowSideNav }) {
       </Head>
 
       <main>
-      <div className=" mt-[5%]">
-        {}
-        </div>
+        <div className=" mt-[5%]">{}</div>
         <PageBanner
           bannerBg={bannerBg}
           heading="Careers"
@@ -42,16 +38,7 @@ export default function Careers({ showSideNav, setShowSideNav }) {
             alt="Careers"
             style={{ objectFit: "cover", width: "100%", height: "100%" }}
           />
-          <h1
-            style={{
-              color: "white",
-              marginTop: "-30%",
-              textAlign: "center",
-              textShadow: "initial",
-            }}
-          >
-            There are no careers available
-          </h1>
+          <h1 className="text-4xl 2xl:text-6xl text-white mt-[-40%] 2xl:mt-[-15%] text-center tracking-normal">There are no careers available</h1>
         </div>
         {/* <Hero3 /> */}
         {/* <TeamMembers/> */}
