@@ -83,7 +83,7 @@ function Carousel({ autoSlide = true, autoSlideInterval = 5000 }) {
               {i === 0 && (
                 <>
                   <div
-                    className={`md:text-5xl 2xl:text-7xl text-[#d3444d] bg-[#f6f6f6] font-bold pr-[5%] pl-[5%] w-screen pt-[10%] ${
+                    className={`text-5xl text-[#d3444d] bg-[#f6f6f6] font-bold pr-[5%] pl-[5%] w-screen pt-[10%] ${
                       showText
                         ? "duration-700 animate-in slide-in-from-bottom-48"
                         : "translate-y-full transition-transform duration-700"
@@ -91,7 +91,7 @@ function Carousel({ autoSlide = true, autoSlideInterval = 5000 }) {
                   >
                     {showText ? s.text : <></>}
 
-                    <div className="md:text-xl 2xl:text-4xl text-[#0a113b] mt-[3%]">
+                    <div className="text-xl text-[#0a113b] mt-[3%]">
                       {showText ? s.desc : <></>}
                     </div>
                   </div>
@@ -100,7 +100,7 @@ function Carousel({ autoSlide = true, autoSlideInterval = 5000 }) {
               {i === 1 && (
                 <>
                   <div
-                    className={`md:text-5xl 2xl:text-7xl text-[#d3444d] bg-[#f6f6f6] font-bold pr-[5%] pl-[5%] w-screen pt-[10%]
+                    className={`text-5xl text-[#d3444d] bg-[#f6f6f6] font-bold pr-[5%] pl-[5%] w-screen pt-[10%]
                    ${
                      showText
                        ? "duration-700 animate-in slide-in-from-bottom-48"
@@ -110,7 +110,7 @@ function Carousel({ autoSlide = true, autoSlideInterval = 5000 }) {
                   >
                     {showText ? s.text : <></>}
 
-                    <div className="md:text-xl 2xl:text-4xl text-[#0a113b] mt-[3%]">
+                    <div className="text-xl text-[#0a113b] mt-[3%]">
                       {showText ? s.desc : <></>}
                     </div>
                   </div>
@@ -119,7 +119,7 @@ function Carousel({ autoSlide = true, autoSlideInterval = 5000 }) {
               {i === 2 && (
                 <>
                   <div
-                    className={`md:text-5xl 2xl:text-7xl text-[#d3444d] bg-[#f6f6f6] font-bold pr-[5%] pl-[5%] w-screen pt-[10%]
+                    className={`text-5xl text-[#d3444d] bg-[#f6f6f6] font-bold pr-[5%] pl-[5%] w-screen pt-[10%]
                    ${
                      showText
                        ? "duration-700 animate-in slide-in-from-bottom-48"
@@ -129,7 +129,7 @@ function Carousel({ autoSlide = true, autoSlideInterval = 5000 }) {
                   >
                     {showText ? s.text : <></>}
 
-                    <div className="md:text-xl 2xl:text-4xl text-[#0a113b] mt-[3%]">
+                    <div className="text-xl text-[#0a113b] mt-[3%]">
                       {showText ? s.desc : <></>}
                     </div>
                   </div>

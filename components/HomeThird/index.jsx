@@ -22,7 +22,7 @@ function index() {
                     <div>
                         <FaBullseye size={40} color="#f7eb09"/>
                     </div>
-                    <div className="text-left leading-5 2xl:text-3xl">
+                    <div className="text-left leading-5">
                         The mission of Nick Petroleum Ghana Limited is to market
                         quality first grade fuel, provide first class professional
                         services to customers and ensure adequate and reliable
@@ -35,7 +35,7 @@ function index() {
                     <div>
                         <FaRegHandshake size={40} color="#f7eb09"/>
                     </div>
-                    <div className="text-left 2xl:text-3xl">
+                    <div className="text-left">
                         <ul>
                         <li>Customer Satisfaction</li>
                         <li>Professionalism</li>
@@ -53,7 +53,7 @@ function index() {
                 <div>
                     <AiFillEye size={40} color="#f7eb09"/>
                 </div>
-                <div className="text-left leading-5 2xl:text-3xl">
+                <div className="text-left leading-5">
                     The vision of Nick Petroleum Ghana Limited is to become one of a
                     first-class provider of petroleum products and services in Ghana
                     and beyond through the supply of quality products to individual

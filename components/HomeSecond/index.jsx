@@ -13,10 +13,10 @@ function index() {
           <Image src={nick_image} alt="Profile Image" className="w-full h-full object-cover"/>
         </div>
         <div className="flexflex-col space-y-4 items-center justify-center h-screen 2xl:mt-[10%] p-10 w-[50%]">
-          <div className="text-[#dc2626] 2xl:text-5xl uppercase font-bold pt-[5%]">
+          <div className="text-[#dc2626] uppercase font-bold pt-[5%]">
             Nick Petroleum Ghana
           </div>
-          <div className="leading-10 2xl:leading-loose 2xl:text-3xl">
+          <div className="leading-10">
             Nick Petroleum Ghana Limited is a private limited liability company
             incorporated under the company{"’"}s code and authorized to trade in
             petroleum products. Nick Petroleum was incorporated in 2015,

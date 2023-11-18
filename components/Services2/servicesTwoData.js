@@ -15,7 +15,7 @@ const servicesTwoData = [
         thumbnail: thumb1,
         icon: <AiOutlineShop />,
         heading: 'Retail Outlets Developments',
-        text: 'Currently Nick Petroleum is developing five (5) ultra-modern retail outlets in Kumasi and Accra. There is new development at East Legon (Lagos Avenue), East Legon (Gethsemane Cemetery), Tema Community 18 near Toyota Head office...',
+        text: 'Currently Nick Petroleum is developing five (5) ultra-modern retail outlets in Kumasi and Accra. There is new development at East Legon (Lagos Avenue), East Legon (Gethsemane Cemetery), Tema Community 18 near Toyota Head office',
     },
 
     {
@@ -23,24 +23,24 @@ const servicesTwoData = [
         thumbnail: thumb2,
         icon: <AiOutlineShoppingCart />,
         heading: 'Retail Food Courts',
-        text: 'Nick Petroleum is on the verge of securing a strategic partnership with Pizza Hut to establish a chain of food courts at selected Nick Petroleum outlets in Accra and Kumasi. This partnership will pronounce and give Nick Petroleum...',
+        text: 'Nick Petroleum is on the verge of securing a strategic partnership with Pizza Hut to establish a chain of food courts at selected Nick Petroleum outlets in Accra and Kumasi. This partnership will pronounce and give Nick Petroleum',
     },
 
-    {
-        id: uuidv4(),
-        thumbnail: thumb3,
-        icon: <BsFillFuelPumpDieselFill />,
-        heading: 'Mines Diesel Lubricants',
-        text: 'Nick Petroleum has now developed interest in the supply of petroleum products to the mining sectors in Ghana. We have developed partnerships with international oil companies and major oil trading companies in Europe..',
-    },
+    // {
+    //     id: uuidv4(),
+    //     thumbnail: thumb3,
+    //     icon: <BsFillFuelPumpDieselFill />,
+    //     heading: 'Mines Diesel Lubricants',
+    //     text: 'Nick Petroleum has now developed interest in the supply of petroleum products to the mining sectors in Ghana. We have developed partnerships with international oil companies and major oil trading companies in Europe..',
+    // },
 
-    {
-        id: uuidv4(),
-        thumbnail: thumb4,
-        icon: <FaRegBuilding />,
-        heading: 'Investments In Consumer Sites Using Mobile Retail Outlets',
-        text: 'Nick petroleum has developed a new strategy to enter the bulk consumer markets where mobile filling station outlets will be provided for bulk consumers of petroleum products...'
-    },
+    // {
+    //     id: uuidv4(),
+    //     thumbnail: thumb4,
+    //     icon: <FaRegBuilding />,
+    //     heading: 'Investments In Consumer Sites Using Mobile Retail Outlets',
+    //     text: 'Nick petroleum has developed a new strategy to enter the bulk consumer markets where mobile filling station outlets will be provided for bulk consumers of petroleum products...'
+    // },
 
     // {
     //     id: uuidv4(),

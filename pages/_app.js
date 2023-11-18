@@ -25,7 +25,7 @@ function MyApp({ Component, pageProps }) {
               setShowSideNav={setShowSideNav}
             />  
         </div>
-        <div className="">
+        <div>
           {showSideNav && <SideNav setShowSideNav={setShowSideNav} />}
         </div>
         <Component

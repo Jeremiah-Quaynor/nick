@@ -8,7 +8,7 @@ function index() {
   const router = useRouter();
   return (
     <div>
-      <div className="bg-[#0a113b] w-screen 2xl:text-2xl">
+      <div className="bg-[#0a113b] w-screen">
         <div className="flex justify-between w-[80%] mx-auto p-10">
           <div className="space-y-4 w-[30%]">
             <div className="mt-[-10%] 2xl:mt-[-5%]">
@@ -29,17 +29,18 @@ function index() {
               <div className="flex flex-row space-x-4 my-auto">
                 <div
                 // className="w-[2.5vw] h-[5vh] rounded-full border-2 border-indigo-600"
+                className="hover:cursor-pointer hover:text-[#f7eb09]"
                 >
-                  <FaFacebookF color="white" />
+                  <FaFacebookF  />
                 </div>
-                <div>
-                  <FaTwitter color="white" />
+                <div className="hover:cursor-pointer hover:text-[#f7eb09]">
+                  <FaTwitter  />
                 </div>
-                <div>
-                  <FaInstagram color="white" />
+                <div className="hover:cursor-pointer hover:text-[#f7eb09]">
+                  <FaInstagram  />
                 </div>
-                <div>
-                  <FaYoutube color="white" />
+                <div className="hover:cursor-pointer hover:text-[#f7eb09]">
+                  <FaYoutube  />
                 </div>
               </div>
             </div>

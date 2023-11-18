@@ -11,7 +11,7 @@ import Image from "next/image";
 
 function Blog2() {
   return (
-    <section className="blog-section section-bg section-padding w-screen 2xl:text-3xl">
+    <section className="blog-section section-bg section-padding w-screen">
       <div className="w-[90%] mx-auto">
         <div className="row align-items-center mb-30">
           <div className="w-[69%]">

@@ -5,8 +5,10 @@ import { FaBars } from "react-icons/fa";
 import SideNav from "../../components/SideNav";
 import { AiOutlineClose } from "react-icons/ai";
 import { useGlobalContext } from "../../context/globalContext";
+import { useRouter } from "next/router";
 
 function index({ showSideNav, setShowSideNav }) {
+  const router = useRouter();
   // const { showSideNav, setShowSideNav, handleShowSideNav } = useGlobalContext();
 
   // const handleShowSideNav = () => {
@@ -15,7 +17,7 @@ function index({ showSideNav, setShowSideNav }) {
 
   return (
     <div className="flex justify-between px-20 z-50">
-      <div>
+      <div className="hover:cursor-pointer" onClick={() => router.push("/")}>
         <Image src={Logo} alt="Logo" width={100} height={100} />
       </div>
       <div className="my-auto flex flex-row space-x-2 shadow-xs">

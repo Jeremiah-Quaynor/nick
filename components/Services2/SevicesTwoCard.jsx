@@ -5,7 +5,7 @@ import { BsArrowRight } from "react-icons/bs";
 
 function SevicesTwoCard({ thumbnail, icon, heading, text }) {
   return (
-    <div className="col-md-6 col-xl-4 col-12">
+    <div className="col-md-6 col-xl-6 col-12">
       <div className="single-service-card">
         <div className="card-thumb bg-cover">
           <Image
