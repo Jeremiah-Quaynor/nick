@@ -14,10 +14,10 @@ function Blog2() {
     <section className="blog-section section-bg section-padding w-screen">
       <div className="w-[90%] mx-auto">
         <div className="row align-items-center mb-30">
-          <div className="w-[69%]">
+          <div className="w-[72%] 2xl:w-[61%]">
             <div className="section-title style-2 flex justify-between">
-              <p className="my-auto">FEATURE STORY</p>
-              <h1 className="tracking-wider">LATEST COMPANY NEWS</h1>
+              <p className="my-auto font-bold text-3xl">FEATURE STORY</p>
+              <h1 className="tracking-wider font-bold text-xl">LATEST COMPANY NEWS</h1>
             </div>
           </div>
         </div>
