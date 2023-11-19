@@ -6,7 +6,7 @@ function ContactItem({ icon, heading, text, item1, item2 }) {
         <div className="col-lg-4 col-md-6 col-12">
             <div className="single-contact-card card1">
                 <div className="top-part">
-                    <div className="icon">{icon}</div>
+                    <div className="icon pl-[7%] pt-[7%]">{icon}</div>
                     <div className="title">
                         <h4>{heading}</h4>
                         <span>{text}</span>
@@ -17,7 +17,7 @@ function ContactItem({ icon, heading, text, item1, item2 }) {
                         <p>{item1}</p>
                         <p>{item2}</p>
                     </div>
-                    <div className="icon">
+                    <div className="icon pl-[5%] pt-[5%]">
                         <BsArrowRight />
                     </div>
                 </div>

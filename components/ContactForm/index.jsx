@@ -19,12 +19,12 @@ function ContactForm({ title, heading }) {
     <section className="contact-form-wrapper section-padding pt-0">
       <div className="container">
         <div className="row">
-          <div className="col-12 text-center mb-20">
+          <div className="col-12 text-center mt-10">
             <span>{title}</span>
-            <h1>{heading}</h1>
+            <h1 className="tracking-wider font-bold text-3xl">{heading}</h1>
           </div>
 
-          <div className="col-12 col-lg-12">
+          <div className="col-12 col-lg-12 md:w-[80%] mx-auto 2xl:w-full">
             <div className="contact-form">
               <form action="" className="row conact-form">
                 <FormInput
@@ -71,7 +71,7 @@ function ContactForm({ title, heading }) {
 
                 <div className="col-md-12 col-12 text-center">
                   <input
-                    className="submit-btn"
+                    className="submit-btn rounded-lg py-3"
                     type="submit"
                     value="Send Message"
                     onSubmit={onSubmitHandler}

@@ -18,6 +18,7 @@ function FormInput({ labelFor, label, placeholder, id, type }) {
                     type={type}
                     id={id}
                     placeholder={placeholder}
+                    className='rounded-lg py-3'
                 />
             </div>
         </div>
