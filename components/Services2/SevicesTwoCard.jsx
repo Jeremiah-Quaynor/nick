@@ -22,7 +22,7 @@ function SevicesTwoCard({ thumbnail, icon, heading, text }) {
             <Link href="/services">{heading}</Link>
           </h1>
           <p>{text}</p>
-          <Link href="/services" className="text-sm 2xl:text-lg mt-[3%] hover:text-red-600 flex flex-row space-x-2">
+          <Link href="/about/whoWeAre" className="text-sm 2xl:text-lg mt-[3%] hover:text-red-600 flex flex-row space-x-2">
             <div>Read More</div>
             <div className="my-auto">
               <BsArrowRight />

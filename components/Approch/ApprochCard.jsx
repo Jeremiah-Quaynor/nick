@@ -19,8 +19,8 @@ function ApprochCard({ thumbnail, icon, heading, text, btnText, pageLink }) {
             <div className="case-cat">
               <Link href="">{icon}</Link>
             </div>
-            <h3>
-              <Link href={pageLink}>{heading}</Link>
+            <h3 className="font-semibold">
+              <Link href={""}>{heading}</Link>
             </h3>
             <p>{text}</p>
             {/* <Link href={pageLink} className="read-btn">

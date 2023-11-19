@@ -50,10 +50,10 @@ function TeamItem({
           />
           {/* <img src={img} alt="member" /> */}
         </div>
-        {/* <div className="member-details">
+        <div className="member-details">
           <span>{position}</span>
           <h3>{name}</h3>
-        </div> */}
+        </div>
         <div className="social-icons">
           <div className="plus-icon pl-[15%] pt-[15%]">
             <FaPlus />

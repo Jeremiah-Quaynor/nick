@@ -9,7 +9,7 @@ const portfolioOneData = [
     // category: 'Industrial',
     // client: 'Rosalina D.',
     heading: "Retail Distribution Network",
-    desc: `Nick Petroleum currently has eleven (11) retail outlets across Ghana, located in Greater Accra, Central and Ashanti Region. The company has ultramodern fuel service stations designed and built according to international best practices to modernize the face of petroleum retail business in Ghana. We are the only company recognized by National Petroleum Authority in Ghana that incorporates vapor recovery systems in our retail outlet design and build.
+    desc: `Nick Petroleum currently has eleven (13) retail outlets across Ghana, located in Greater Accra, Central and Ashanti Region. The company has ultramodern fuel service stations designed and built according to international best practices to modernize the face of petroleum retail business in Ghana. We are the only company recognized by National Petroleum Authority in Ghana that incorporates vapor recovery systems in our retail outlet design and build.
         
         The following are some of our retail outlets in Accra and Kumasi:
 Dansoman Wesley Grammar Junction Service Station

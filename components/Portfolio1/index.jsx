@@ -78,6 +78,30 @@ function Porfolio1() {
                               </div>
                               <div>Suame Service Station</div>
                             </li>
+                            <li className="flex flex-row space-x-4">
+                              <div className="my-auto">
+                                <BsCircleFill className="" color="#001659" />
+                              </div>
+                              <div>Kasoa station</div>
+                            </li>
+                            <li className="flex flex-row space-x-4">
+                              <div className="my-auto">
+                                <BsCircleFill className="" color="#001659" />
+                              </div>
+                              <div>Nyanyano station</div>
+                            </li>
+                            <li className="flex flex-row space-x-4">
+                              <div className="my-auto">
+                                <BsCircleFill className="" color="#001659" />
+                              </div>
+                              <div>Dansoman estates</div>
+                            </li>
+                            <li className="flex flex-row space-x-4">
+                              <div className="my-auto">
+                                <BsCircleFill className="" color="#001659" />
+                              </div>
+                              <div>Sofoline Kumasi</div>
+                            </li>
                           </ul>
                         )}
                         {data.heading === "Existing Bulk Customers" && (

@@ -14,7 +14,7 @@ const servicesTwoData = [
         id: uuidv4(),
         thumbnail: thumb1,
         icon: <AiOutlineShop />,
-        heading: 'Retail Outlets Developments',
+        heading: 'Retail Outlet Development',
         text: 'Currently Nick Petroleum is developing five (5) ultra-modern retail outlets in Kumasi and Accra. There is new development at East Legon (Lagos Avenue), East Legon (Gethsemane Cemetery), Tema Community 18 near Toyota Head office',
     },
 

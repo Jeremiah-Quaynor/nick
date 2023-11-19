@@ -11,7 +11,7 @@ function Approch() {
           <div className="col-12 col-lg-12">
             <div className="section-title text-center">
               <span>Story</span>
-              <h1 className="tracking-normal 2xl:text-3xl">Who We Are</h1>
+              <h1 className="tracking-normal font-bold text-3xl py-4">Who We Are</h1>
               <p>
                 Nick Petroleum Ghana Limited is a private limited liability
                 company incorporated under the company{"’"}s code and authorized to
