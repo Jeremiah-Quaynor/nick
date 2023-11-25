@@ -17,7 +17,11 @@ function Services({ setShowSideNav }) {
   return (
     <>
       {/* <Hero3 /> */}
-
+      <Head>
+        <title>Nick Petroleum | Services</title>
+        <meta name="description" content="Fuel your success with Nick Petroleum - the premier provider of high-quality fuels and exceptional customer service." />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <PageBanner
         bannerBg={bannerBg}
         currentPage="Services"
