@@ -7,6 +7,7 @@ import Process from "../components/Process";
 import ProjectFilter2 from "../components/ProjectFilter2";
 import Services2 from "../components/Services2";
 import Hero3 from "../components/Hero3";
+import Head from "next/head";
 
 function Services({ setShowSideNav }) {
 
