@@ -33,7 +33,7 @@ function TeamItem({
       }}
     >
       <div
-        className={`single-team-member 2xl:h-[45vh] 2xl:w-fit 2xl:mx-auto`}
+        className={`single-team-member`}
         style={{ backgroundColor: "white" }}
       >
         <div className="member-img">
