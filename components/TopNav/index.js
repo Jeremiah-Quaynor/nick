@@ -21,7 +21,7 @@ function index({ showSideNav, setShowSideNav }) {
         <Image src={Logo} alt="Logo" width={100} height={100} />
       </div>
       <div className="my-auto flex flex-row space-x-2 shadow-xs">
-        <div className="text-[#0a113b] font-bold 2xl:text-2xl">Menu</div>
+        <div className="text-[#0a113b] font-bold">Menu</div>
         <div
           className="my-auto hover:cursor-pointer"
           onClick={() => {
@@ -31,7 +31,7 @@ function index({ showSideNav, setShowSideNav }) {
           {showSideNav ? (
             <div
               onClick={() => setShowSideNav(!showSideNav)}
-              className="text-2xl 2xl:text-4xl text-[#0a113b] hover:cursor-pointer hover:text-white my-auto"
+              className="text-2xl text-[#0a113b] hover:cursor-pointer hover:text-white my-auto"
             >
               <AiOutlineClose />
             </div>

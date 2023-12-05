@@ -47,7 +47,7 @@ function index() {
         </div>
         <div className="w-[70vw]">
           <div className="font-bold text-[#dc2626] text-xl mt-4">OUR STORY</div>
-          <div className="mt-2 2xl:text-3xl">
+          <div className="mt-2">
             Overview of Nick Petroleum{"'"}s comprehensive mining services and
             related investments in mining infrastructure.
           </div>

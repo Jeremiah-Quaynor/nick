@@ -99,7 +99,7 @@ function index() {
         </div>
       </div>
       <div className="w-screen bg-[#292f54]">
-        <div className="w-[80%] mx-auto text-sm 2xl:text-lg text-white text-left p-10">
+        <div className="w-[80%] mx-auto text-sm text-white text-left p-10">
           © Copyright 2023 Nick Petroleum. All Rights Reserved.
         </div>
       </div>

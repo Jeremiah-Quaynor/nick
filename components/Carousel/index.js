@@ -69,7 +69,7 @@ function Carousel({ autoSlide = true, autoSlideInterval = 5000 }) {
 
   return (
     <div
-      className="overflow-hidden relative z-0 w-screen 2xl:h-[60vh] md:h-[80vh]"
+      className="overflow-hidden relative z-0 w-screen h-[80vh]"
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
