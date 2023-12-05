@@ -10,7 +10,7 @@ SwiperCore.use([Navigation]);
 
 function Porfolio1() {
   return (
-    <section className="portfolio-section section-padding pt-0 2xl:text-3xl 2xl:leading-10">
+    <section className="portfolio-section section-padding pt-0">
       <div className="w-[80%] mx-auto p-10">
         <div className="project-wrapper">
           <Swiper navigation className="portfolio-carousel-active owl-carousel">

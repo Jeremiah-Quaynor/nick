@@ -5,7 +5,7 @@ import { AiOutlineCheckCircle } from "react-icons/ai";
 
 function Approch() {
   return (
-    <section className="our-approch-wrapper section-bg 2xl:text-3xl 2xl:leading-10">
+    <section className="our-approch-wrapper section-bg">
       <div className="w-[80%] mx-auto p-10">
         <div className="row">
           <div className="col-12 col-lg-12">
