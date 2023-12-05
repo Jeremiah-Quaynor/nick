@@ -14,7 +14,7 @@ function Services2() {
           At Nick Petroleum we pride ourselves in Our innovation and Our ability
           to grow and embrace new Dynamics
         </p>
-        <div className="row">
+        <div className="row flex justify-center items-center">
           {servicesTwoData.map((data) => (
             <ServicesTwoCard
               key={data.id}

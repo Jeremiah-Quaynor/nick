@@ -18,9 +18,6 @@ function Porfolio1() {
               <SwiperSlide key={data.id}>
                 <PortfolioOneSlide
                   image={data.image}
-                  // imgLink={data.imgLink}
-                  // category={data.category}
-                  // client={data.client}
                   title={data.heading}
                   desc={
                     <div>
@@ -155,7 +152,6 @@ function Porfolio1() {
                       </>
                     </div>
                   }
-                  // btnText={data.btnText}
                 />
               </SwiperSlide>
             ))}
