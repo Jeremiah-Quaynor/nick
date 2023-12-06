@@ -7,7 +7,14 @@ function PageBanner({ bannerBg, currentPage, heading }) {
       className="page-banner-wrap bg-cover"
       style={{ backgroundImage: `url(${bannerBg})`, zIndex: 0, backgroundColor: "#facc15" }}
     >
-      <div style={{marginTop: "-10%", height: "250px"}}>
+      <div style={{marginTop: "-10%", height: "250px"}} className="hidden sm:block">
+        <Image
+          src={bannerBg}
+          alt="Banner Image"
+          style={{ objectFit: "cover", width: "100%", height: "100%", }}
+        />
+      </div>
+      <div style={{marginTop: "-18%", height: "250px"}} className="block md:hidden">
         <Image
           src={bannerBg}
           alt="Banner Image"
