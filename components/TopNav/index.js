@@ -16,36 +16,69 @@ function index({ showSideNav, setShowSideNav }) {
   // };
 
   return (
-    <div className="flex justify-between px-20 z-50">
-      <div className="hover:cursor-pointer" onClick={() => router.push("/")}>
-        <Image src={Logo} alt="Logo" width={100} height={100} />
-      </div>
-      <div className="my-auto flex flex-row space-x-2 shadow-xs">
-        <div className="text-[#0a113b] font-bold">Menu</div>
-        <div
-          className="my-auto hover:cursor-pointer"
-          onClick={() => {
-            setShowSideNav(!showSideNav);
-          }}
-        >
-          {showSideNav ? (
+    <>
+      <div className="hidden sm:block">
+        <div className="flex justify-between px-20 z-50">
+          <div
+            className="hover:cursor-pointer"
+            onClick={() => router.push("/")}
+          >
+            <Image src={Logo} alt="Logo" width={100} height={100} />
+          </div>
+          <div className="my-auto flex flex-row space-x-2 shadow-xs">
+            <div className="text-[#0a113b] font-bold">Menu</div>
             <div
-              onClick={() => setShowSideNav(!showSideNav)}
-              className="text-2xl text-[#0a113b] hover:cursor-pointer hover:text-white my-auto"
+              className="my-auto hover:cursor-pointer"
+              onClick={() => {
+                setShowSideNav(!showSideNav);
+              }}
             >
-              <AiOutlineClose />
+              {showSideNav ? (
+                <div
+                  onClick={() => setShowSideNav(!showSideNav)}
+                  className="text-2xl text-[#0a113b] hover:cursor-pointer hover:text-white my-auto"
+                >
+                  <AiOutlineClose />
+                </div>
+              ) : (
+                <div className="my-auto">
+                  <FaBars color="#0a113b" />
+                </div>
+              )}
             </div>
-          ) : (
-            <div className="my-auto">
-              <FaBars color="#0a113b" />
-            </div>
-          )}
+          </div>
         </div>
       </div>
-      {/* <div> */}
-      {/* {showSideNav && <SideNav  />} */}
-      {/* </div> */}
-    </div>
+
+      {/* Media Query for Small Screens  */}
+      <div className="flex justify-between px-4 pb-20 z-50 block md:hidden">
+        <div className="hover:cursor-pointer" onClick={() => router.push("/")}>
+          <Image src={Logo} alt="Logo" width={100} height={100} />
+        </div>
+        <div className="my-auto flex flex-row space-x-2 shadow-xs">
+          <div className="text-[#0a113b] font-bold">Menu</div>
+          <div
+            className="my-auto hover:cursor-pointer"
+            onClick={() => {
+              setShowSideNav(!showSideNav);
+            }}
+          >
+            {showSideNav ? (
+              <div
+                onClick={() => setShowSideNav(!showSideNav)}
+                className="text-2xl text-[#0a113b] hover:cursor-pointer hover:text-white my-auto"
+              >
+                <AiOutlineClose />
+              </div>
+            ) : (
+              <div className="my-auto">
+                <FaBars color="#0a113b" />
+              </div>
+            )}
+          </div>
+        </div>
+      </div>
+    </>
   );
 }
 
