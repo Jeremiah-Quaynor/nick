@@ -26,7 +26,7 @@ export default function Careers({ showSideNav, setShowSideNav }) {
       </Head>
 
       <main>
-        <div className=" mt-[5%]">{}</div>
+        <div className="mt-[5%] hidden sm:block">{}</div>
         <PageBanner
           bannerBg={bannerBg}
           heading="Careers"
@@ -38,7 +38,8 @@ export default function Careers({ showSideNav, setShowSideNav }) {
             alt="Careers"
             style={{ objectFit: "cover", width: "100%", height: "100%" }}
           />
-          <h1 className="text-4xl 2xl:text-6xl text-white mt-[-40%] 2xl:mt-[-15%] text-center tracking-normal">There are no careers available</h1>
+          <h1 className="text-4xl 2xl:text-6xl text-white mt-[-40%] 2xl:mt-[-15%] text-center tracking-normal hidden sm:block">There are no careers available</h1>
+          <h1 className="text-4xl text-white mt-[-90%] text-center tracking-normal block md:hidden">There are no careers available</h1>
         </div>
         {/* <Hero3 /> */}
         {/* <TeamMembers/> */}
