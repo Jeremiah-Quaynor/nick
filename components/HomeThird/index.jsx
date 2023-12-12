@@ -67,13 +67,13 @@ function index() {
       </div>
 
       {/* Media Query for Small Screens  */}
-      <div className="w-screen h-screen block md:hidden flex flex-col mt-10">
+      <div className="block md:hidden flex flex-col justify-between mt-10">
         <div>
           <Image src={nick_image} alt="Background Image" className="" />
         </div>
         <div className="flex flex-col bg-[#0a113b] h-full text-center text-white text-xl font-bold">
-          <div className="h-screen my-auto flex items-center justify-center">
-            <div className="flex flex-col text-sm mx-auto my-auto p-4 space-y-6">
+          <div className="bg-[#0a113b] my-auto flex items-center justify-center">
+            <div className="flex flex-col text-sm mx-auto my-auto py-10 px-4 space-y-6">
               <div className="flex flex-col">
                 <div className="flex flex-col space-y-5">
                   <div className="flex flex-col space-y-4">
