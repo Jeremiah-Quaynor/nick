@@ -181,7 +181,7 @@ function Carousel({ autoSlide = true, autoSlideInterval = 5000 }) {
     
     {/* Media Query for Small Screens */}
     <div
-      className="overflow-hidden relative z-0 w-screen h-[60vh] block md:hidden"
+      className="overflow-hidden relative z-0 w-screen block md:hidden"
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >

@@ -71,7 +71,7 @@ function index() {
         <div>
           <Image src={nick_image} alt="Background Image" className="" />
         </div>
-        <div className="flex flex-col bg-[#0a113b] mb-20 h-full text-center text-white text-xl font-bold">
+        <div className="flex flex-col bg-[#0a113b] h-full text-center text-white text-xl font-bold">
           <div className="h-screen my-auto flex items-center justify-center">
             <div className="flex flex-col text-sm mx-auto my-auto p-4 space-y-6">
               <div className="flex flex-col">
