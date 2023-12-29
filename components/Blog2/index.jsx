@@ -1,12 +1,7 @@
 import React from "react";
-import { BiCalendar } from "react-icons/bi";
-import { BsArrowRight } from "react-icons/bs";
-import { FaUser } from "react-icons/fa";
-import cardImg from "../../assets/img/nickTwo.jpg";
+import cardImg from "../../assets/img/DSCF0046.jpg";
 import blogTwoData from "./blogTwoData";
 import BlogTwoItem from "./BlogTwoItem";
-import Link from "next/link";
-import { AiOutlineArrowRight } from "react-icons/ai";
 import Image from "next/image";
 
 function Blog2() {

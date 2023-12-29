@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import nick_image from "../../assets/img/nick-2.jpeg";
+import nick_image from "../../assets/img/DSCF0071.jpg";
 import { AiFillEye } from "react-icons/ai";
 import { FaBullseye, FaRegHandshake } from "react-icons/fa";
 

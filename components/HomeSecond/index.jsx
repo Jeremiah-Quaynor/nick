@@ -1,9 +1,9 @@
 import React from "react";
 import Image from "next/image";
-import nick_image from "../../assets/img/nick-6.jpeg";
-import nick_image_one from "../../assets/img/nick-3.jpeg";
-import nick_image_two from "../../assets/img/nick-2.jpeg";
-import nick_image_three from "../../assets/img/nick-1.jpeg";
+import nick_image from "../../assets/img/DSCF0098.jpg";
+import nick_image_one from "../../assets/img/DSCF0125.jpg";
+import nick_image_two from "../../assets/img/DSCF0170.jpg";
+import nick_image_three from "../../assets/img/DSCF0214.jpg";
 
 function index() {
   return (

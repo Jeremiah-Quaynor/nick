@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import nick_image_one from "../../assets/img/nick-4.jpeg";
-import nick_image_two from "../../assets/img/nick-5.jpeg";
+import nick_image_one from "../../assets/img/DSCF0076.jpg";
+import nick_image_two from "../../assets/img/DSCF0059.jpg";
 import { FiArrowRight } from "react-icons/fi";
 import { useRouter } from "next/router";
 
