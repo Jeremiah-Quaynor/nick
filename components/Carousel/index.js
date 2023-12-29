@@ -1,9 +1,9 @@
 import Image from "next/image";
 import { useState, useEffect } from "react";
 import { ChevronLeft, ChevronRight } from "react-feather";
-import backgroundImageOne from "../../assets/img/carousel_image_1.png";
-import backgroundImageTwo from "../../assets/img/carousel_image_2.png";
-import backgroundImageThree from "../../assets/img/carousel_image_3.png";
+import backgroundImageOne from "../../assets/img/DSCF0085.png";
+import backgroundImageTwo from "../../assets/img/DSCF0118.png";
+import backgroundImageThree from "../../assets/img/DSCF0171.png";
 
 function Carousel({ autoSlide = true, autoSlideInterval = 5000 }) {
   const [curr, setCurr] = useState(0);

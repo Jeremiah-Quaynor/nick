@@ -1,8 +1,8 @@
 import { FaBullseye, FaDraftingCompass, FaHardHat, FaPencilRuler, FaRegHandshake } from 'react-icons/fa';
 import { v4 as uuidv4 } from 'uuid';
-import thumb1 from '../../assets/img/nick-4.jpeg';
-import thumb2 from '../../assets/img/nick-5.jpeg';
-import thumb3 from '../../assets/img/nick-2.jpeg';
+import thumb1 from '../../assets/img/DSCF0099.jpg';
+import thumb2 from '../../assets/img/DSCF0079.jpg';
+import thumb3 from '../../assets/img/DSCF0047.jpg';
 import { AiOutlineEye } from 'react-icons/ai';
 
 const approchData = [
