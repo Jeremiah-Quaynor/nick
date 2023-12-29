@@ -1,19 +1,6 @@
-import {
-  FaCity,
-  FaDraftingCompass,
-  FaHardHat,
-  FaRegBuilding,
-  FaTruckMoving,
-} from "react-icons/fa";
 import { v4 as uuidv4 } from "uuid";
-import thumb1 from "../../assets/img/nickTwo.jpg";
-import thumb2 from "../../assets/img/retail_food_courts.jpg";
-import thumb3 from "../../assets/img/lubricant.jpg";
-import thumb4 from "../../assets/img/service4.jpg";
-import thumb5 from "../../assets/img/service5.jpg";
-import thumb6 from "../../assets/img/service6.jpg";
-import { AiOutlineShop, AiOutlineShoppingCart } from "react-icons/ai";
-import { BsFillFuelPumpDieselFill } from "react-icons/bs";
+import thumb1 from "../../assets/img/DSCF0237.jpg";
+import { AiOutlineShop } from "react-icons/ai";
 
 const servicesTwoData = [
   {

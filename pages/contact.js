@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import bannerBg from "../assets/img/contact_us-1.jpg";
+import bannerBg from "../assets/img/DSCF0099.jpg";
 import ContactForm from "../components/ContactForm";
 import ContactUs from "../components/ContactUs";
 import Footer1 from "../components/Footer1";
