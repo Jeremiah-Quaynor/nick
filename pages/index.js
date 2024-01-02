@@ -34,14 +34,9 @@ export default function Home() {
       </Head>
 
       <main>
-      {/* <TopNav /> */}
-        {/* <Hero3 /> */}
-        {/* <div className="z-50 opacity-80">
-          <TopNav showSideNav={showSideNav} setShowSideNav={setShowSideNav} />
-        </div> */}
         <div className="mt-[-10%] z-0 w-screen w-full">
-          <div className='w-screen'>
-            <Image src={home_background} className='w-full h-full object-cover'/>
+          <div className='w-screen h-screen'>
+            <div className='w-full h-full object-cover'></div>
           </div>
           <div className="mt-[-40%] z-0 w-screen w-full">
             <Carousel />
@@ -50,14 +45,7 @@ export default function Home() {
         <HomeSecond />
         <HomeThird />
         <HomeFourth />
-        {/* <Process /> */}
-         {/* <div className='container'>
-          <Services3 />
-        </div>  */}
-        {/* <Services2 />        */}
-        {/* <Portfolio1 /> */}
         <Blog2 />
-        {/* <Testimonial /> */}
       </main>
 
 

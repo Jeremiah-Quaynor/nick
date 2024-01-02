@@ -1,9 +1,9 @@
 import Image from "next/image";
 import { useState, useEffect } from "react";
 import { ChevronLeft, ChevronRight } from "react-feather";
-import backgroundImageOne from "../../assets/img/DSCF0085.png";
-import backgroundImageTwo from "../../assets/img/DSCF0118.png";
-import backgroundImageThree from "../../assets/img/DSCF0171.png";
+import backgroundImageOne from "../../assets/img/DSCF0085.jpg";
+import backgroundImageTwo from "../../assets/img/DSCF0118.jpg";
+import backgroundImageThree from "../../assets/img/DSCF0171.jpg";
 
 function Carousel({ autoSlide = true, autoSlideInterval = 5000 }) {
   const [curr, setCurr] = useState(0);
@@ -84,7 +84,7 @@ function Carousel({ autoSlide = true, autoSlideInterval = 5000 }) {
               {i === 0 && (
                 <>
                   <div
-                    className={`text-5xl text-[#d3444d] bg-[#f6f6f6] font-bold pr-[5%] pl-[5%] w-screen pt-[10%] ${
+                    className={`text-5xl text-[#d3444d] font-bold pr-[5%] pl-[5%] w-screen pt-[10%] ${
                       showText
                         ? "duration-700 animate-in slide-in-from-bottom-48"
                         : "translate-y-full transition-transform duration-700"
@@ -101,7 +101,7 @@ function Carousel({ autoSlide = true, autoSlideInterval = 5000 }) {
               {i === 1 && (
                 <>
                   <div
-                    className={`text-5xl text-[#d3444d] bg-[#f6f6f6] font-bold pr-[5%] pl-[5%] w-screen pt-[10%]
+                    className={`text-5xl text-[#d3444d] font-bold pr-[5%] pl-[5%] w-screen pt-[10%]
                    ${
                      showText
                        ? "duration-700 animate-in slide-in-from-bottom-48"
@@ -120,7 +120,7 @@ function Carousel({ autoSlide = true, autoSlideInterval = 5000 }) {
               {i === 2 && (
                 <>
                   <div
-                    className={`text-5xl text-[#d3444d] bg-[#f6f6f6] font-bold pr-[5%] pl-[5%] w-screen pt-[10%]
+                    className={`text-5xl text-[#d3444d] font-bold pr-[5%] pl-[5%] w-screen pt-[10%]
                    ${
                      showText
                        ? "duration-700 animate-in slide-in-from-bottom-48"

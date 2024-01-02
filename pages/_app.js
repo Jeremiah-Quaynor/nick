@@ -19,7 +19,7 @@ function MyApp({ Component, pageProps }) {
     <>
       {/* <Header3 /> */}
       <GlobalContextProvider>
-        <div className="z-50 opacity-80">
+        <div className="z-50 opacity-80 mb-10">
             <TopNav
               showSideNav={showSideNav}
               setShowSideNav={setShowSideNav}
