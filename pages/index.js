@@ -35,7 +35,7 @@ export default function Home() {
 
       <main>
         <div className="mt-[-10%] z-0 w-screen w-full">
-          <div className='w-screen h-screen'>
+          <div className='w-screen h-screen hidden sm:block'>
             <div className='w-full h-full object-cover'></div>
           </div>
           <div className="mt-[-40%] z-0 w-screen w-full">
