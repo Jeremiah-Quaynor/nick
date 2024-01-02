@@ -18,7 +18,7 @@ function SevicesTwoCard({ thumbnail, icon, heading, text }) {
           <div className="case-cat">
             <Link href="/services">{icon}</Link>
           </div>
-          <h1 className="tracking-normal ">
+          <h1 className="tracking-normal font-bold">
             <Link href="/services">{heading}</Link>
           </h1>
           <p>{text}</p>
