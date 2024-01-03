@@ -88,15 +88,14 @@ function Blog2() {
                 objectFit: "cover",
                 width: "100%",
                 height: "100%",
-                opacity: 0.4,
               }}
             />
-            <h2 className="text-white text-xl font-bold shadow-xl pl-4 mt-[-28%]">
+            <h2 className="text-[#0a113b] text-lg">
               Stay Focused and Work hard, Chairman Nick Danso Adjei tells the
               youth, April 30, 2022
             </h2>
           </div>
-          <div className="col-lg-6 mt-6">
+          <div className="col-lg-6 mt-20">
             <div className="blog-list-view ">
               {blogTwoData.map((data) => (
                 <BlogTwoItem
