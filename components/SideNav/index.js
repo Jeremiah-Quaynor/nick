@@ -18,7 +18,7 @@ function index({ showSideNav, setShowSideNav }) {
         >
           <AiOutlineClose className="hover:text-red-600" />
         </div>
-        <div className="space-y-4 h-[52vh] overflow-y-auto">
+        <div className="space-y-4 h-[62vh] overflow-y-auto">
           <div className="border-b-[1.7px] pt-4 border-red-600 text-[#c4161c] font-semibold">
             <div
               className="hover:cursor-pointer hover:text-white"
@@ -125,6 +125,21 @@ function index({ showSideNav, setShowSideNav }) {
               onClick={() => router.push("/contact")}
             >
               CONTACT US
+              <div className="pt-2">
+                <div className="pt-2">
+                  <div className="bg-[#c4161c]">
+                    <hr />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="text-white font-semibold">
+            <div
+              className="hover:cursor-pointer hover:text-[#c4161c]"
+              onClick={() => router.push("/gallery")}
+            >
+              GALLERY
               <div className="pt-2">
                 <div className="pt-2">
                   <div className="bg-[#c4161c]">
@@ -253,6 +268,21 @@ function index({ showSideNav, setShowSideNav }) {
               onClick={() => router.push("/contact")}
             >
               CONTACT US
+              <div className="pt-2">
+                <div className="pt-2">
+                  <div className="bg-[#c4161c]">
+                    <hr />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="text-white font-semibold">
+            <div
+              className="hover:cursor-pointer hover:text-[#c4161c]"
+              onClick={() => router.push("/gallery")}
+            >
+              GALLERY
               <div className="pt-2">
                 <div className="pt-2">
                   <div className="bg-[#c4161c]">
