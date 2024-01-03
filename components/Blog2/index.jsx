@@ -26,11 +26,11 @@ function Blog2() {
               style={{
                 objectFit: "cover",
                 width: "100%",
-                height: "100%",
-                opacity: 0.7,
+                height: "90%",
+                // opacity: 0.7,
               }}
             />
-            <h2 className="text-2xl font-bold shadow-xl pl-8 mt-[-18%] bg-white 2xl:mt-[-5%] text-black z-10">
+            <h2 className="text-2xl font-bold pl-8 2xl:mt-[-5%] text-[#0a113b]">
               Stay Focused and Work hard, Chairman Nick Danso Adjei tells the
               youth, April 30, 2022
             </h2>
