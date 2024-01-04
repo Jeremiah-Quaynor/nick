@@ -25,14 +25,14 @@ function index({ showSideNav, setShowSideNav }) {
           >
             <Image src={Logo} alt="Logo" width={100} height={100} />
           </div>
-          <div className="my-auto flex flex-row space-x-2 shadow-xs">
+          <div
+            className="my-auto flex flex-row space-x-2 shadow-xs hover:cursor-pointer"
+            onClick={() => {
+              setShowSideNav(!showSideNav);
+            }}
+          >
             <div className="text-[#0a113b] font-bold">Menu</div>
-            <div
-              className="my-auto hover:cursor-pointer"
-              onClick={() => {
-                setShowSideNav(!showSideNav);
-              }}
-            >
+            <div className="my-auto hover:cursor-pointer">
               {showSideNav ? (
                 <div
                   onClick={() => setShowSideNav(!showSideNav)}
@@ -55,14 +55,14 @@ function index({ showSideNav, setShowSideNav }) {
         <div className="hover:cursor-pointer" onClick={() => router.push("/")}>
           <Image src={Logo} alt="Logo" width={100} height={100} />
         </div>
-        <div className="my-auto flex flex-row space-x-2 shadow-xs">
+        <div
+          className="my-auto flex flex-row space-x-2 shadow-xs"
+          onClick={() => {
+            setShowSideNav(!showSideNav);
+          }}
+        >
           <div className="text-[#0a113b] font-bold">Menu</div>
-          <div
-            className="my-auto hover:cursor-pointer"
-            onClick={() => {
-              setShowSideNav(!showSideNav);
-            }}
-          >
+          <div className="my-auto hover:cursor-pointer">
             {showSideNav ? (
               <div
                 onClick={() => setShowSideNav(!showSideNav)}
